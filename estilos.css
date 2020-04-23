@@ -4,3 +4,9 @@ header {
 h2{
     font-family: 'IBM Plex Mono', monospace;
 }
+.main-header{
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    background-color: aqua;
+}
