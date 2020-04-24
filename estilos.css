@@ -7,8 +7,7 @@ h2{
 }
 .header{
     display:grid;
-    grid-template-columns: 35% 55%;
-    justify-content: space-between;
+    grid-template-columns: 35% 65%;
     background-color: aqua;
     height: 800px;
 }
@@ -36,4 +35,14 @@ h5{
     font-family: 'IBM Plex Mono', monospace;
     padding-left: 8px;
     margin-top: 15px;
+}
+.search{
+    background-color: gold;
+    height: 50px;
+    width: 100%;
+    border: solid 1px gainsboro;
+}
+.search p{
+    color: gray;
+    padding-left:  40px;
 }
