@@ -4,9 +4,21 @@ header {
 h2{
     font-family: 'IBM Plex Mono', monospace;
 }
-.main-header{
+.header{
     display:grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 30% 60%;
     justify-content: space-between;
     background-color: aqua;
+    height: 400px;
+}
+.upgrade{
+    color: white;
+    border: solid 1px white;
+    border-radius: 25px;
+    margin-left: 2px;
+}
+.subscribe{
+    margin-top: 5px;
+    border: solid 1px white;
+    margin-bottom: 10px ;
 }
