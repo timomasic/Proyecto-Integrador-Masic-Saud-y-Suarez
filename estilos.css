@@ -1,5 +1,6 @@
 header{
-    background-color: red;
+    background-color: #ff0000;
+    border-right:solid 1px gainsboro ;
 }
 h2{
     font-family: 'IBM Plex Mono', monospace;
@@ -9,7 +10,7 @@ h2{
     grid-template-columns: 30% 60%;
     justify-content: space-between;
     background-color: aqua;
-    height: 400px;
+    height: 800px;
 }
 .upgrade{
     color: white;
@@ -29,4 +30,10 @@ h2{
 }
 h5{
     padding-left: 2px;
+}
+.main-section{
+    color: black;
+    font-family: 'IBM Plex Mono', monospace;
+    padding-left: 8px;
+    margin-top: 15px;
 }
