@@ -7,7 +7,7 @@ h2{
 }
 .header{
     display:grid;
-    grid-template-columns: 30% 60%;
+    grid-template-columns: 35% 55%;
     justify-content: space-between;
     background-color: aqua;
     height: 800px;
