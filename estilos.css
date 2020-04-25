@@ -1,17 +1,17 @@
-header{
+header {
     background-color: #ff0000;
     border-right:solid 1px gainsboro ;
 }
-h2{
+h2 {
     font-family: 'IBM Plex Mono', monospace;
 }
-.header{
+.header {
     display:grid;
     grid-template-columns: 35% 65%;
     background-color: aqua;
-    height: 800px;
+    height: 50px;
 }
-.upgrade{
+.upgrade {
     color: white;
     border: solid 1px white;
     border-radius: 25px;
@@ -19,7 +19,7 @@ h2{
     margin-right: 5px;
     background-color: lightblue;
 }
-.subscribe{
+.subscribe {
     margin-top: 5px;
     border: solid 1px white;
     margin-bottom: 10px ;
@@ -27,7 +27,7 @@ h2{
     width: 90%;
     justify-content: space-between;
 }
-h5{
+h5 {
     padding-left: 2px;
 }
 .main-section{
