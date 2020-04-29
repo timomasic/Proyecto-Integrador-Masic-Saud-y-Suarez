@@ -54,6 +54,7 @@ body {
     color:  rgba(55,55,55,0.75);
     text-align: center;
     font-size: 30px;
+    font-family: Arial,sans-serif;
   }
   
   .listTwo{
@@ -83,9 +84,10 @@ body {
   
   .item{
     color: rgba(55,55,55,0.75);
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     text-decoration: none;
+    font-family: Arial,sans-serif;
   }
   
   .imageSize{
