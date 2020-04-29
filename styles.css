@@ -64,7 +64,6 @@ body {
   .grid-container {
     display: inline-grid;
     grid-template-columns: auto auto auto;
-   
     padding: 5px;
     margin: auto;
     margin-left: 50px;
@@ -92,4 +91,5 @@ body {
     width: 400px;
     height: 400px;
     border-radius: 205px;
+    border: solid 1px gainsboro;
   }
