@@ -32,7 +32,8 @@ h3{
 }
 
 .infoPlaylist {
-    background-color: cornflowerblue;
+    background-color: #2692b7;
+    background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
     padding: 3px;
     width: 30%;
     
@@ -47,7 +48,7 @@ main {
 }
 
 h5 {
-    background-color: cornflowerblue;
+    background-color:#2f3030;
     color: white;
     border: 1px;
     padding: 5px;
