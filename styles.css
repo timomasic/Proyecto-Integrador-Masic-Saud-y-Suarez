@@ -9,9 +9,10 @@ body {
     margin: 0;
     width: 100%;
     height: 60px;
-    background-color: rgb(25, 114, 216);
     margin-bottom: 20px;
     display: flex;
+    background-color: #2692b7;
+    background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
   }
   
   .logoNav{
