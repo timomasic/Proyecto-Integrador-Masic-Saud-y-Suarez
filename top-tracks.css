@@ -3,10 +3,11 @@
     display: grid;
     grid-template-columns: 25%  60% 15% ;
     justify-content: space-between;
-    background-color: #2f3030;
+    background-color: #2692b7;
+    background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
 }
 body{
-    background-image: url(https://wallpapermemory.com/uploads/823/cool-music-background-hd-1280x800-49855.jpg);
+    background-image: url("https://www.dovecor.co.za/wp-content/uploads/2015/02/Music-notes2.jpg");
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: cover;
@@ -53,7 +54,8 @@ body{
       color: white;
       margin-left: 123px;
     margin-top: 232px;
-    background-color:  #2f3030;
+    background-color: #2692b7;
+    background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
     height: 190px;
     padding-left: 22px;
 }
