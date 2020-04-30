@@ -29,6 +29,9 @@ body {
     font-size: 20px;
     text-decoration: none;
   }
+  h3:hover{
+    color:rgba(55,55,55,0.75);
+  }
   
   a{
     text-decoration: none;
