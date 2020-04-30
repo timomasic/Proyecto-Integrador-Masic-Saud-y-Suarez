@@ -114,3 +114,6 @@ body {
   .imageSize:hover{
     border: solid 3px #2cfc03;
   }
+  .flexsearch--form{
+    padding-left: 500px;
+  }
