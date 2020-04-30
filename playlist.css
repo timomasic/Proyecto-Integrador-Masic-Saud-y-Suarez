@@ -47,10 +47,27 @@ main {
     margin-left: 30px;
 }
 
-h5 {
+
+
+
+.playlist{
     background-color:#2f3030;
+    
+}
+
+.songs{
+    background-color: #2f3030 ;
+    
+}
+.lista{
     color: white;
-    border: 1px;
-    padding: 5px;
-    width: 100%;
+    padding-left: 62px;
+}
+.cancion{
+    margin-top: 25px;
+    border-top: solid 1px gainsboro ;
+    padding-top: 25px;
+}
+.fa-heart:before{
+    padding-right: 33px;
 }
