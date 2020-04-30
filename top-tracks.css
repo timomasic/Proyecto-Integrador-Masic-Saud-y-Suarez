@@ -1,0 +1,71 @@
+.header{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25%  60% 15% ;
+    justify-content: space-between;
+    background-color: #2f3030;
+}
+body{
+    background-image: url(https://wallpapermemory.com/uploads/823/cool-music-background-hd-1280x800-49855.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+}
+.atras-adelante{
+    margin-left: 35px;
+    margin-top: 19px;
+}
+.buscador{
+    padding-bottom: 11px;
+}
+
+
+.grid-container{
+    width: 400px;
+    height: 400px;
+    border-radius: 205px;
+    border: solid 1px gainsboro;
+}
+.grid-item {
+    padding: 100px;
+    font-size: 30px;
+    
+}
+.imageSize{
+        width: 400px;
+        height: 400px;
+        border-radius: 205px;
+            border: solid 1px gainsboro;
+}
+.item{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial,sans-serif;
+  }
+  .eminem{
+      display: grid;
+      grid-template-columns: 30% 70%;
+      justify-content: space-between;
+  }
+  .facts{
+      color: white;
+      margin-left: 123px;
+    margin-top: 232px;
+    background-color:  #2f3030;
+    height: 190px;
+    padding-left: 22px;
+}
+.songs{
+    background-color: #2f3030 ;
+    
+}
+.lista{
+    color: white;
+    padding: 62px;
+}
+.cancion{
+    margin-top: 1px;
+}
+  
