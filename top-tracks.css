@@ -63,9 +63,10 @@ body{
 }
 .lista{
     color: white;
-    padding: 62px;
+    padding-left: 62px;
 }
 .cancion{
-    margin-top: 1px;
+    margin-top: 15px;
+    border-top: solid 1px gainsboro ;
 }
   
