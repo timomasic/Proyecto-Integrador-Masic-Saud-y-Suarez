@@ -23,7 +23,7 @@ body {
   }
   
   h3{
-    margin-left: 7px;
+    margin-left: 45px;
     margin-top: 17px;
     color: aliceblue;
     font-size: 20px;
@@ -115,5 +115,5 @@ body {
     border: solid 3px #2cfc03;
   }
   .flexsearch--form{
-    padding-left: 500px;
+    padding-left: 500px; 
   }
