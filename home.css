@@ -117,6 +117,7 @@ body {
   .flexsearch--form{
     padding-left: 500px; 
   }
+  
   footer{
     height: 250px;
     background-color: #2692b7;
@@ -128,6 +129,8 @@ body {
   .nuestro-logo{
     height: px;
   }
-  .nombres{
 
+  .personalLogo {
+    height: 226px;
+    padding: 15px;
   }
