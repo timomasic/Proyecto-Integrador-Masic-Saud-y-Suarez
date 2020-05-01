@@ -21,7 +21,7 @@ body {
     margin-top: 7px;
     margin-left: 10px;
   }
-  
+
   h3{
     margin-left: 45px;
     margin-top: 17px;
@@ -116,4 +116,18 @@ body {
   }
   .flexsearch--form{
     padding-left: 500px; 
+  }
+  footer{
+    height: 250px;
+    background-color: #2692b7;
+    background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
+  display: grid;
+  grid-template-columns: 30% 30% 40%;
+  justify-content: space-between;
+  }
+  .nuestro-logo{
+    height: px;
+  }
+  .nombres{
+
   }

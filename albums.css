@@ -4,7 +4,7 @@
     grid-template-columns: 25%  60% 15% ;
     justify-content: space-between;
     background-color: #2692b7;
-    background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
+    background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb)
 }
 body{
     background-image: url("https://www.dovecor.co.za/wp-content/uploads/2015/02/Music-notes2.jpg");
