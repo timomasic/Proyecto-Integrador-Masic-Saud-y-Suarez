@@ -92,4 +92,10 @@ footer{
     height: 226px;
     padding: 15px;
   }
+  .ultima-cancion{
+    margin-top: 25px;
+    border-top: solid 1px gainsboro ;
+    padding-top: 25px;
+    padding-bottom: 25px;
+   }
   
