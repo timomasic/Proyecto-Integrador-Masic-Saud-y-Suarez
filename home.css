@@ -125,6 +125,7 @@ body {
   display: grid;
   grid-template-columns: 30% 30% 40%;
   justify-content: space-between;
+  border-radius: 30px;
   }
   .nuestro-logo{
     height: px;
