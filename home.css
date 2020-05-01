@@ -134,18 +134,8 @@ body {
     height: 226px;
     padding: 15px;
   }
-<<<<<<< HEAD
   
-@media screen  and (max-width: 768px){
-    body {
-      margin: 0;
-      width: 100%;
-      height: 60px;
-      margin-bottom: 20px;
-      display: flex;
-      background-color:gold;
-    }
-=======
+
 
   .topnav {
     overflow: hidden;
@@ -174,5 +164,14 @@ body {
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
->>>>>>> 4f422fd683bedb5fea47bd2d30bbd6b9950e4955
+  }
+  @media screen  and (max-width: 768px){
+    body {
+      margin: 0;
+      width: 100%;
+      height: 60px;
+      margin-bottom: 20px;
+      display: flex;
+      background-color:gold;
+    }
   }
