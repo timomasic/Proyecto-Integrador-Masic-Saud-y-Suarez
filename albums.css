@@ -84,12 +84,20 @@ footer{
   display: grid;
   grid-template-columns: 30% 30% 40%;
   justify-content: space-between;
+  border-radius: 30px;
   }
-  .nuestro-logo{
-    height: px;
-  }
+  
 
   .personalLogo {
     height: 226px;
     padding: 15px;
-  }
+   } 
+   .ultima-cancion{
+    margin-top: 25px;
+    border-top: solid 1px gainsboro ;
+    padding-top: 25px;
+    padding-bottom: 25px;
+   }
+   .lista:hover{
+       color: #1bc908;
+   }
