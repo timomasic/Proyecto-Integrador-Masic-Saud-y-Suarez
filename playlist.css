@@ -58,16 +58,13 @@ main {
 
 .songs{
     background-color: #2f3030 ;
-    
-}
-.lista{
     color: white;
-    padding-left: 62px;
 }
 .cancion{
     margin-top: 25px;
     border-top: solid 1px gainsboro ;
     padding-top: 25px;
+    padding-left: 45px;
 }
 .fa-heart:before{
     padding-right: 33px;
