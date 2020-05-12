@@ -80,7 +80,12 @@ footer{
   justify-content: space-between;
   border-radius: 30px;
   }
-  
+  .logoNav-footer{
+    width: 73%;
+    height: 268px;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
 
   .personalLogo {
     height: 226px;
