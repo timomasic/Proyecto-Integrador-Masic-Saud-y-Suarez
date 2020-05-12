@@ -89,3 +89,6 @@ footer{
   h3:hover{
     color:rgba(55,55,55,0.75);
   }
+  .cancion:hover{
+    color: #1bc908;
+}
