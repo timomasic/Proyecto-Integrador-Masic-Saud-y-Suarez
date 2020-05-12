@@ -111,3 +111,13 @@ footer{
     margin-top: 7px;
     margin-left: 10px;
   }
+  h3:hover{
+    color:rgba(55,55,55,0.75);
+  }
+  h3{
+    margin-left: 45px;
+    margin-top: 17px;
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+  }
