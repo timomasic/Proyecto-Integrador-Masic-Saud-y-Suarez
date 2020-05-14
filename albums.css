@@ -64,6 +64,12 @@ body{
     color: white;
 
 }
+.ultima-cancion{
+    margin-top: 25px;
+    border-top: solid 1px gainsboro ;
+    padding-top: 25px;
+    padding-left: 45px;
+}
 .cancion{
     margin-top: 25px;
     border-top: solid 1px gainsboro ;
