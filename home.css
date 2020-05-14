@@ -171,6 +171,11 @@ body {
     margin-right: 16px;
     font-size: 17px;
   }
+  footer.logoDeezer{
+    width: 86%;
+    margin-top: 16px;
+    }
+  
   @media screen  and (max-width: 768px){
     .grid-container {
       display: grid;
