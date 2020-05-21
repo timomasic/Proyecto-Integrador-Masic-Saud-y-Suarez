@@ -105,6 +105,9 @@ footer{
     padding-top: 25px;
     padding-bottom: 25px;
    }
+   .ultima-cancion:hover{
+    color: #1bc908;
+}
    .cancion:hover{
        color: #1bc908;
    }

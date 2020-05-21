@@ -104,6 +104,9 @@ footer{
    .cancion:hover{
     color: #1bc908;
 }
+.ultima-cancion:hover{
+    color: #1bc908;
+}
 .logoDeezer{
     width: 86%;
     margin-top: 16px;

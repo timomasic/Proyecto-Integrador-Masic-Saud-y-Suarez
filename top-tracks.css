@@ -101,6 +101,9 @@ footer{
    .cancion:hover{
     color: #1bc908;
 }
+.ultima-cancion:hover{
+  color: #1bc908;
+}
 .link{
     color: white;
     text-decoration: none;
