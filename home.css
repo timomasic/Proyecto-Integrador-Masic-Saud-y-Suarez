@@ -107,8 +107,8 @@ body {
     font-family: Arial,sans-serif;
   }
   .item:hover{
-    color:#2cfc03;
-    border: solid 1px #2cfc03;
+    color:#ff0000;
+    border: solid 1px #ff0000;
     border-radius: 180px;
   }
   
