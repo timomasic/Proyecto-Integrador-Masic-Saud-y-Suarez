@@ -184,6 +184,11 @@ body {
       justify-content: space-between;
     }
 
+    body{
+      background-color: royalblue;
+      background-image: none;    
+    }
+
     .myNavbar {
       width: 100%;
     }
