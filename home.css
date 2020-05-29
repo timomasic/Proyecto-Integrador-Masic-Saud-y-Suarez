@@ -192,4 +192,16 @@ body {
     .myNavbar {
       width: 100%;
     }
+    .topnav {
+      overflow: hidden;
+      margin-left: 198px;
+  }
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 13px;
+    margin-right: 16px;
+    font-size: 17px;
+}
   }
