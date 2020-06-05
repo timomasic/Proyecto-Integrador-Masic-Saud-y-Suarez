@@ -18,13 +18,13 @@ body {
 .logoNav{
     width: 45px;
     height: 45px;
-    margin-top: -6px;
+    margin-top: 5px;
     margin-left: 10px;
   }
   .logoNav-footer{
     width: 73%;
     height: 268px;
-    margin-top: 7px;
+    margin-top: -3px;
     margin-left: 10px;
   }
 
