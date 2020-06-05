@@ -85,8 +85,8 @@ footer{
   }
   .logoNav-footer {
     width: 73%;
-    height: 198px;
-    margin-top: 37px;
+    height: 268px;
+    margin-top: 7px;
     margin-left: 10px;
 }
 
@@ -108,10 +108,11 @@ footer{
 .ultima-cancion:hover{
     color: #1bc908;
 }
-.logoDeezer{
-    width: 86%;
-    margin-top: 16px;
-    }
+.logoDeezer {
+  width: 86%;
+  margin-top: 30px;
+}
+
     @media screen  and (max-width: 768px){
         .grid-container {
           display: grid;
@@ -143,9 +144,9 @@ footer{
         font-size: 17px;
     }
     .logoDeezer {
-        width: 106%;
-        margin-top: 70px;
-    }
+      width: 86%;
+      margin-top: 30px;
+  }
     .flexsearch--form {
         margin-left: 345px;
         padding-left: 18px;
