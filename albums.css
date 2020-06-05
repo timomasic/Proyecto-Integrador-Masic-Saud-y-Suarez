@@ -1,5 +1,6 @@
 .header{
     width: 100%;
+    position: fixed;
     display: grid;
     grid-template-columns: 25%  60% 15% ;
     justify-content: space-between;
@@ -32,12 +33,13 @@ body{
     font-size: 30px;
     
 }
-    .imageSize{
-        width: 80%;
-        height: 300px;
-        border-radius: 50%;
-        border: solid 1px gainsboro;
-      }
+.imageSize {
+    width: 182%;
+    height: 300px;
+    border-radius: 50%;
+    border: solid 1px gainsboro;
+    margin-top: 65px;
+}
 .item{
     color: white;
     font-size: 20px;
