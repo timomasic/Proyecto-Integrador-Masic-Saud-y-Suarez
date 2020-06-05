@@ -190,4 +190,11 @@ footer{
 width: 112%;
 margin-top: 65px;
 }
+.imageSize {
+  width: 84%;
+  height: 300px;
+  border-radius: 50%;
+  border: solid 1px gainsboro;
+  margin-top: 65px;
+}
   }
