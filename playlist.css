@@ -19,7 +19,7 @@ body {
 .logoNav{
     width: 45px;
     height: 45px;
-    margin-top: -6px;
+    margin-top: 7px;
     margin-left: 10px;
 }
 
@@ -83,12 +83,13 @@ footer{
   justify-content: space-between;
   border-radius: 30px;
   }
-  .logoNav-footer{
+  .logoNav-footer {
     width: 73%;
-    height: 268px;
-    margin-top: 7px;
+    height: 198px;
+    margin-top: 37px;
     margin-left: 10px;
-  }
+}
+
 
   .personalLogo {
     height: 226px;
@@ -143,7 +144,7 @@ footer{
     }
     .logoDeezer {
         width: 106%;
-        margin-top: 18px;
+        margin-top: 70px;
     }
     .flexsearch--form {
         margin-left: 345px;
