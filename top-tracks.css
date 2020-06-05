@@ -170,15 +170,22 @@ footer{
     margin-right: 16px;
     font-size: 17px;
 }
-.logoDeezer {
-  width: 112%;
-  margin-top: 65px;
-}
+
 .grid-item {
   padding: 65px;
   font-size: 30px;
   width: 173%;
   padding-left: 5%;
   padding-top: 66%;
+}
+.logoNav-footer {
+  width: 73%;
+  height: 191px;
+  margin-top: 45px;
+  margin-left: 10px;
+}
+.logoDeezer {
+width: 112%;
+margin-top: 65px;
 }
   }
