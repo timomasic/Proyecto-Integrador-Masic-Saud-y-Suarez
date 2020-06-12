@@ -196,6 +196,7 @@ canvas,img,video{
 }
 .instagram{
 color: #E1306C;
+}
   @media screen  and (max-width: 768px){
     .grid-container {
       display: grid;
@@ -253,4 +254,4 @@ color: #E1306C;
   padding-left: 28px;
 }
 }
-}
+
