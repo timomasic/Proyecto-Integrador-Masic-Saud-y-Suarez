@@ -11,7 +11,6 @@ window.addEventListener ("load", function()  {
             let trackList = information.tracks.data;
             for (let i = 0; i < trackList.length; i++) {
                 console.log(trackList);
-                
                 let trackId = trackList[i].id;
                 let trackTitle = trackList[i].title_short;
                 let trackArtist = trackList[i].artist.name;
@@ -28,11 +27,8 @@ window.addEventListener ("load", function()  {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                     </div>
                 </div>
-                
                 </li>
                 `
-        
-            
                 document.querySelector(".trackList").innerHTML += trackItem;
             }
         }
