@@ -8,7 +8,6 @@ window.addEventListener ("load", function()  {
     .then(
         function(information) {
            let track = document.querySelector ("li .track-item") 
-
             let trackList = information.tracks.data;
             for (let i = 0; i < trackList.length; i++) {
                 console.log(trackList);
@@ -20,13 +19,16 @@ window.addEventListener ("load", function()  {
                 let trackImage = trackList[i].album.cover;
                 let trackItem = `
                 <li class="track-item">
-                <div class="uk-card uk-card-default"> 
-                <img src= `+ trackImage +`>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                        <a href="artist.html">  <img src="` + trackImage + `" alt=""> </a>
+                    </div>
+                    <div class="uk-card-body">
+                        <a href="artist.html" > <h3 class="uk-card-title">` + trackTitle + `<h3></a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    </div>
                 </div>
-                <div class="uk-card-body">
-
-                <a href="artist.html"> <h3 class="uk-card-title">`+ trackTitle +`</h3></a>
-                </div>
+                
                 </li>
                 `
         
@@ -36,15 +38,3 @@ window.addEventListener ("load", function()  {
         }
     )
 })
-
-// <li class="track-item">
-// <div class="uk-card uk-card-default">
-//<div class="uk-card-media-top">
-//    <img src="https://images-na.ssl-images-amazon.com/images/I/61fXEwg-lAL._SL1400_.jpg" alt="">
-//</div>
-//<div class="uk-card-body">
-//  <a href="artist.html"> <h3 class="uk-card-title"><h3> Eminem </h3></a>  
-//    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-//</div>
-//</div>
-//</li> 
