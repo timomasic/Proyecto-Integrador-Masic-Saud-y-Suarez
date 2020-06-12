@@ -11,24 +11,40 @@ window.addEventListener ("load", function()  {
 
             let trackList = information.tracks.data;
             for (let i = 0; i < trackList.length; i++) {
+                console.log(trackList);
+                
                 let trackId = trackList[i].id;
                 let trackTitle = trackList[i].title_short;
                 let trackArtist = trackList[i].artist.name;
                 let trackArtistId = trackList[i].artist.id;
-                let trackImage = trackList[i].cover;
-                let trackItem = `      <div class="grid-item">
-                <a href="top-tracks.html"> 
-                  <img class="imageSize" src= `+trackImage+`>
-                </a>
-                <br>
-                <a class="item" href="top-tracks.html">`+trackTitle+`</a>
-              </div>`
+                let trackImage = trackList[i].album.cover;
+                let trackItem = `
+                <li class="track-item">
+                <div class="uk-card uk-card-default"> 
+                <img src= `+ trackImage +`>
+                </div>
+                <div class="uk-card-body">
+
+                <a href="artist.html"> <h3 class="uk-card-title">`+ trackTitle +`</h3></a>
+                </div>
+                </li>
+                `
         
             
-                document.querySelector(".trackList").innerHTML += trackItem ;
+                document.querySelector(".trackList").innerHTML += trackItem;
             }
         }
     )
 })
 
-// Sacar los corchetes
+// <li class="track-item">
+// <div class="uk-card uk-card-default">
+//<div class="uk-card-media-top">
+//    <img src="https://images-na.ssl-images-amazon.com/images/I/61fXEwg-lAL._SL1400_.jpg" alt="">
+//</div>
+//<div class="uk-card-body">
+//  <a href="artist.html"> <h3 class="uk-card-title"><h3> Eminem </h3></a>  
+//    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+//</div>
+//</div>
+//</li> 
