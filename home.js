@@ -30,3 +30,5 @@ window.addEventListener ("load", function()  {
         }
     )
 })
+
+// Sacar los corchetes
