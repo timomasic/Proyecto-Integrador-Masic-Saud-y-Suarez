@@ -176,9 +176,7 @@ body {
     width: 86%;
     margin-top: 30px;
 }
-.Img-Artista{
-  width: 100%;
-}
+
 .uk-grid>*>:last-child {
   margin-bottom: 0;
   height: 860px;
@@ -188,7 +186,16 @@ canvas,img,video{
   height: 690px;
   box-sizing: border-box;
 }
-  
+ .redes {
+  margin-top: -133px;
+  margin-left: 375px;
+  font-size: 92px;
+} 
+.facebook{
+ color:	#3b5998 ;
+}
+.instagram{
+color: #E1306C;
   @media screen  and (max-width: 768px){
     .grid-container {
       display: grid;
@@ -245,4 +252,5 @@ canvas,img,video{
   padding-right: 12px;
   padding-left: 28px;
 }
-  }
+}
+}
