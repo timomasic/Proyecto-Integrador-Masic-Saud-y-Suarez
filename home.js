@@ -15,7 +15,7 @@ window.addEventListener ("load", function()  {
                 let trackTitle = trackList[i].title_short;
                 let trackArtist = trackList[i].artist.name;
                 let trackArtistId = trackList[i].artist.id;
-                let trackImage = trackList[i].cover;
+                let trackImage = trackList[i].picture;
                 let trackItem = `      <div class="grid-item">
                 <a href="top-tracks.html"> 
                   <img class="imageSize" src= `+trackImage+`>
