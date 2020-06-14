@@ -13,39 +13,39 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+
+
   <header class="myNavbar">
-    <nav class="logoDeezer-header">
-      <a href="home.html"><img class="logoNav" src="sound-waves.png"></a>
+    <nav class="logoDeezer-header" style="display: flex;">
+      <a href="home.html">
+        <img class="logoNav" src="sound-waves.png">
+      </a>
+      <h3 class="headerDeezerTitle">DEEZER</h3>
+      <a class="play" href="playlist.html">Check your playlist here!</a>
     </nav>
-    <nav class="headerDeezer">
-      <h3>DEEZER</h3>
-    </nav>
-    <a class="play" href="playlist.html">Check your playlist here!</a>
     <nav class="topnav">
       <input type="text" placeholder="Search..">
     </nav>
   </header>
+
+
+
+
   <li class='track-item'></li>
   <section class="home">
- <h2>Top Albums</h2>
- <div uk-slider="center: true">
-  <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
-    <ul class="uk-slider-items uk-child-width-1-2@s uk-grid trackList">
-  </ul>
-  <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-  <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
-</div>
- <li  class= "topArtist"></li>
-  <h2>Top Artists</h2>
-  <div uk-slider="center: true">
+
+  <h2>Top Albums</h2>
+  <div uk-slider="center: true" >
     <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
-        <ul class="uk-slider-items uk-child-width-1-2@s uk-grid" id="topArtist">
+        <ul class="uk-slider-items uk-child-width-1-2@s uk-grid trackList">
       </ul>
       <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
       <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+    </div>
   </div>
-</div>
-<h2>Top Tracks</h2>
+  <li  class= "topArtist"></li>
+  
+  <h2>Top Artists</h2>
   <div uk-slider="center: true">
     <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
         <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
@@ -151,9 +151,9 @@
       </ul>
       <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
       <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+    <!-- </div> -->
   </div>
-</div>
-<!---- 86512cdfc3a5d4471d8be970b136cf8c8a786b22-->
+
   </section>
   <br><br><br><br><br><br><br><br><br>
     <footer>

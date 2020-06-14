@@ -5,6 +5,14 @@ body {
     background-size: cover;
   }
   
+  .headerDeezerTitle{
+    margin-right: 0px !important;
+    margin-left: 20px !important;
+    margin-top: 10px !important;
+    margin-bottom: 5px !important;
+
+  }
+
   .myNavbar {
     margin: 0;
     width: 100%;
@@ -17,10 +25,11 @@ body {
   }
   
   .logoNav{
-    width: 45px;
-    height: 45px;
-    margin-top: 8px;
-    margin-left: 10px;
+    width: 75px;
+    height: 49px;
+    margin-top: 6px;
+    margin-left: 16px;
+    margin-right: 10px;
   }
   .logoNav-footer {
     width: 73%;
@@ -54,11 +63,11 @@ body {
   .play {
     color: white;
     font-size: 21px;
-    padding: 57px;
+    /* padding: 57px; */
     text-decoration: none;
     margin-left: 85px;
-    padding-top: 1px;
-    font-size: x-large;
+    /* padding-top: 1px; */
+    /* font-size: x-large; */
 }
   .play:hover{
     color: rgba(55,55,55,0.75)
