@@ -169,7 +169,10 @@ body {
   padding-bottom: 25px;
   padding-left: 45px;
  }
-
+ .fa-play-circle:before {
+  content: "\f144";
+  margin-left: 1000px;
+}
   .topnav {
     overflow: hidden;
     margin-left: 500px;
