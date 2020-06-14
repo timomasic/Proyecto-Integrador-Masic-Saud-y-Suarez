@@ -147,8 +147,28 @@ body {
     height: 226px;
     padding: 15px;
   }
-  
+  .songs{
+    background-color: #2f3030 ;
+    color: white;
+  }
+  .cancion{
+    margin-top: 25px;
+    border-top: solid 1px gainsboro ;
+    padding-top: 25px;
+    padding-left: 45px;
+}
 
+.fa-heart:before{
+    padding-right: 33px;
+    padding-left: 33px;
+}
+.ultima-cancion{
+  margin-top: 25px;
+  border-top: solid 1px gainsboro ;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 45px;
+ }
 
   .topnav {
     overflow: hidden;
