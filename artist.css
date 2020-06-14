@@ -105,6 +105,20 @@ footer {
   width: 86%;
   margin-top: 29px;
   }
+  .redes {
+    margin-top: -133px;
+    margin-left: 375px;
+    font-size: 92px;
+  } 
+  .facebook{
+   color:	#3b5998 ;
+  }
+  .instagram{
+  color: #E1306C;
+  }
+  .twitter{
+    color: #1DA1F2;
+  }
 
   @media screen  and (max-width: 768px){
     .grid-container {

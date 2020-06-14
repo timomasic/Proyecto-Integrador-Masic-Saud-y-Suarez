@@ -176,7 +176,30 @@ body {
     width: 86%;
     margin-top: 30px;
 }
-  
+
+.uk-grid>*>:last-child {
+  margin-bottom: 0;
+  height: 860px;
+}
+canvas,img,video{
+  max-width: 100%;
+  height: 690px;
+  box-sizing: border-box;
+}
+ .redes {
+  margin-top: -133px;
+  margin-left: 375px;
+  font-size: 92px;
+} 
+.facebook{
+ color:	#3b5998 ;
+}
+.instagram{
+color: #E1306C;
+}
+.twitter{
+  color: #1DA1F2;
+}
   @media screen  and (max-width: 768px){
     .grid-container {
       display: grid;
@@ -232,5 +255,11 @@ body {
   font-size: 17px;
   padding-right: 12px;
   padding-left: 28px;
+   }
+   .redes {
+    margin-top: -198px;
+    margin-left: 238px;
+    font-size: 59px;
 }
-  }
+}
+
