@@ -24,7 +24,6 @@ window.addEventListener ("load", function()  {
                     </div>
                     <div class="uk-card-body">
                         <a href="artist.html" > <h3 class="uk-card-title">` + trackTitle + `<h3></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                     </div>
                 </div>
                 </li>
