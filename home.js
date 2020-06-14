@@ -15,7 +15,7 @@ window.addEventListener ("load", function()  {
                 let trackTitle = trackList[i].title_short;
                 let trackArtist = trackList[i].artist.name;
                 let trackArtistId = trackList[i].artist.id;
-                let trackImage = trackList[i].album.cover;
+                let trackImage = trackList[i].album.cover_xl;
                 let trackItem = `
                 <li class="track-item">
                 <div class="uk-card uk-card-default">
@@ -104,5 +104,6 @@ window.addEventListener ("load", function()  {
     )
 })
         
+//  let trackImage = trackList[i].album.cover_xl;
 
     
