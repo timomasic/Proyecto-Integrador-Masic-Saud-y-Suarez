@@ -63,11 +63,10 @@ body {
   .play {
     color: white;
     font-size: 21px;
-    /* padding: 57px; */
+    margin-top: 10px;
     text-decoration: none;
     margin-left: 85px;
-    /* padding-top: 1px; */
-    /* font-size: x-large; */
+    
 }
   .play:hover{
     color: rgba(55,55,55,0.75)
@@ -162,6 +161,12 @@ body {
     padding-right: 33px;
     padding-left: 33px;
 }
+
+h2 {
+    margin-top: 20px;
+}
+
+
 .ultima-cancion{
   margin-top: 25px;
   border-top: solid 1px gainsboro ;
@@ -173,12 +178,12 @@ body {
   content: "\f144";
   margin-left: 1000px;
 }
-  .topnav {
+  .searchBar {
     overflow: hidden;
     margin-left: 500px;
   }
 
-  .topnav a {
+  .searchBar a {
     float: left;
     display: block;
     color: black;
@@ -188,12 +193,12 @@ body {
     font-size: 17px;
   }
 
-  .topnav a:hover {
+  .searchBar a:hover {
     background-color: #ddd;
     color: black;
   }
 
-  .topnav input[type=text] {
+  .searchBar input[type=text] {
     float: right;
     padding: 6px;
     border: none;
@@ -247,11 +252,11 @@ color: #E1306C;
     .myNavbar {
       width: 100%;
     }
-    .topnav {
+    .searchBar {
       overflow: hidden;
       margin-left: 198px;
   }
-  .topnav input[type=text] {
+  .searchBar input[type=text] {
     float: right;
     padding: 6px;
     border: none;
@@ -278,7 +283,7 @@ color: #E1306C;
   padding-top: 8px;
   font-size: large;
 }
-.topnav input[type=text] {
+.searchBar input[type=text] {
   float: right;
   padding: 6px;
   border: none;
