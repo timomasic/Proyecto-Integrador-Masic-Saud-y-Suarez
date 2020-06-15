@@ -7,46 +7,51 @@
     background-color: #2692b7;
     background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb)
 }
-body{
+ body{
     background-image: url("./img.GT/malte-wingen-PDX_a_82obo-unsplash.jpg");
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: cover;
 }
-.atras-adelante{
+ .atras-adelante{
     margin-left: 35px;
     margin-top: 19px;
 }
-.buscador{
+
+ .buscador{
     padding-bottom: 11px;
 }
 
 
-.grid-container{
+ .grid-container{
     width: 400px;
     height: 400px;
     border-radius: 205px;
     border: solid 1px gainsboro;
 }
-.grid-item {
+
+ .grid-item {
     padding: 100px;
     font-size: 30px;
     
 }
-.imageSize {
+
+ .imageSize {
     width: 182%;
     height: 300px;
     border-radius: 50%;
     border: solid 1px gainsboro;
     margin-top: 65px;
 }
-.item{
+
+  .item{
     color: white;
     font-size: 20px;
     text-align: center;
     text-decoration: none;
     font-family: Arial,sans-serif;
   }
+
   .eminem{
       display: grid;
       grid-template-columns: 30% 70%;
@@ -61,29 +66,30 @@ body{
     height: 190px;
     padding-left: 22px;
 }
-.songs{
+  .songs{
     background-color: #2f3030 ;
     color: white;
+}
 
-}
-.ultima-cancion{
+  .ultima-cancion{
     margin-top: 25px;
     border-top: solid 1px gainsboro ;
     padding-top: 25px;
     padding-left: 45px;
 }
-.cancion{
+
+  .cancion{
     margin-top: 25px;
     border-top: solid 1px gainsboro ;
     padding-top: 25px;
     padding-left: 45px;
 }
-.fa-heart:before{
+  .fa-heart:before{
     padding-right: 33px;
     padding-left: 33px;
 }
 
-footer{
+  footer{
     height: 250px;
     background-color: #2692b7;
     background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
@@ -92,6 +98,7 @@ footer{
   justify-content: space-between;
   border-radius: 30px;
   }
+
   .logoDeezer{
     width: 86%;
     margin-top: 16px;
@@ -101,33 +108,40 @@ footer{
     height: 226px;
     padding: 15px;
    } 
+
    .ultima-cancion{
     margin-top: 25px;
     border-top: solid 1px gainsboro ;
     padding-top: 25px;
     padding-bottom: 25px;
    }
+
    .ultima-cancion:hover{
     color: #1bc908;
-}
+   }
+
    .cancion:hover{
        color: #1bc908;
    }
+
    .logoNav{
     width: 45px;
     height: 45px;
     margin-top: 7px;
     margin-left: 10px;
   }
+
   .logoNav-footer{
     width: 73%;
     height: 268px;
     margin-top: 7px;
     margin-left: 10px;
   }
+
   h3:hover{
     color:rgba(55,55,55,0.75);
   }
+
   h3{
     margin-left: 45px;
     margin-top: 17px;
@@ -135,7 +149,10 @@ footer{
     font-size: 20px;
     text-decoration: none;
   }
+
+
   @media screen  and (max-width: 768px){
+    
     .grid-container {
       display: grid;
       grid-template-columns: auto auto;
@@ -150,10 +167,12 @@ footer{
     .myNavbar {
       width: 100%;
     }
+
     .topnav {
       overflow: hidden;
       margin-left: 198px;
-  }
+    }
+
   .topnav input[type=text] {
     float: right;
     padding: 6px;
@@ -161,47 +180,56 @@ footer{
     margin-top: 13px;
     margin-right: 16px;
     font-size: 17px;
-}
-.logoDeezer {
+  }
+
+  .logoDeezer {
   width: 112%;
   margin-top: 65px;
-}
-.grid-item {
+  }
+
+  .grid-item {
     padding: 65px;
     font-size: 30px;
     width: 173%;
     padding-left: 5%;
     padding-top: 66%;
-}
-.logoNav-footer {
+  }
+
+  .logoNav-footer {
     width: 73%;
     height: 191px;
     margin-top: 45px;
     margin-left: 10px;
-}
-.logoDeezer {
+  }
+
+  .logoDeezer {
   width: 112%;
   margin-top: 65px;
-}
-.imageSize {
+  }
+
+  .imageSize {
     width: 84%;
     height: 300px;
     border-radius: 50%;
     border: solid 1px gainsboro;
     margin-top: 65px;
-}
-.redes {
+  }
+
+  .redes {
   margin-top: -133px;
   margin-left: 375px;
   font-size: 92px;
-} 
-.facebook{
+  } 
+
+  .facebook{
  color:	#3b5998 ;
-}
-.instagram{
+  }
+
+  .instagram{
 color: #E1306C;
-}
-.twitter{
+  }
+
+  .twitter{
   color: #1DA1F2;
-}
+  }
   }

@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: cover;
-  }
+}
   
 .myNavbar {
     margin: 0;
@@ -20,13 +20,14 @@ body {
     height: 45px;
     margin-top: 5px;
     margin-left: 10px;
-  }
-  .logoNav-footer{
+}
+
+.logoNav-footer{
     width: 73%;
     height: 268px;
     margin-top: -3px;
     margin-left: 10px;
-  }
+}
 
 .flexsearch--form{
     padding-left: 500px; 
@@ -81,46 +82,57 @@ footer {
   margin-top: 135px;
 }
   
-  .personalLogo {
+.personalLogo {
     height: 226px;
     padding: 15px;
-  }
-  h3{
+}
+
+h3{
     margin-left: 45px;
     margin-top: 17px;
     color: aliceblue;
     font-size: 20px;
     text-decoration: none;
-  }
-  h3:hover{
+}
+
+h3:hover{
     color:rgba(55,55,55,0.75);
-  }
-  .cancion:hover{
+}
+
+.cancion:hover{
     color: #1bc908;
 }
+
 .ultima-cancion:hover{
   color: #1bc908;
 }
+
 .logoDeezer{
   width: 86%;
   margin-top: 29px;
-  }
-  .redes {
+}
+
+.redes {
     margin-top: -133px;
     margin-left: 375px;
     font-size: 92px;
-  } 
-  .facebook{
+} 
+
+.facebook{
    color:	#3b5998 ;
-  }
-  .instagram{
+}
+
+.instagram{
   color: #E1306C;
-  }
-  .twitter{
+}
+
+.twitter{
     color: #1DA1F2;
-  }
+}
+
 
   @media screen  and (max-width: 768px){
+    
     .grid-container {
       display: grid;
       grid-template-columns: auto auto;
@@ -135,46 +147,53 @@ footer {
     .myNavbar {
       width: 100%;
     }
+
     .topnav {
       overflow: hidden;
       margin-left: 198px;
-  }
-  .topnav input[type=text] {
-    float: right;
-    padding: 6px;
-    border: none;
-    margin-top: 13px;
-    margin-right: 16px;
-    font-size: 17px;
-}
-.logoNav-footer {
-  width: 73%;
-  height: 191px;
-  margin-top: 45px;
-  margin-left: 10px;
-}
-.logoDeezer {
-width: 112%;
-margin-top: 65px;
-}
-.logoNav {
-  width: 45px;
-  height: 45px;
-  margin-top: 9px;
-  margin-left: 10px;
-}
-.topSongs {
-  background-color: #2692b7;
-  background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
-  padding: 5px;
-  height: 420px;
-  margin-right: 40px;
-}
-.imageSize {
-  width: 62%;
-  height: 300px;
-  border-radius: 50%;
-  border: solid 1px gainsboro;
-  margin-top: 31px;
-}
+    }
+
+    .topnav input[type=text] {
+      float: right;
+      padding: 6px;
+      border: none;
+      margin-top: 13px;
+      margin-right: 16px;
+      font-size: 17px;
+    }
+
+    .logoNav-footer {
+      width: 73%;
+      height: 191px;
+      margin-top: 45px;
+      margin-left: 10px;
+    }
+
+     .logoDeezer {
+      width: 112%;
+      margin-top: 65px;
+     }
+
+     .logoNav {
+      width: 45px;
+      height: 45px;
+      margin-top: 9px;
+      margin-left: 10px;
+     }
+
+     .topSongs {
+      background-color: #2692b7;
+      background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
+      padding: 5px;
+      height: 420px;
+      margin-right: 40px;
+      }
+
+    .imageSize {
+      width: 62%;
+      height: 300px;
+      border-radius: 50%;
+      border: solid 1px gainsboro;
+      margin-top: 31px;
+     }
   }
