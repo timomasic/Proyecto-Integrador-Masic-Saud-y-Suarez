@@ -105,9 +105,14 @@ body {
     display: flex;
 }
 
-.topSongs {
+.artistName{
   background-color: #2692b7;
   background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
+  height: 85px;
+  border-radius: 10px;
+}
+
+.topSongs {
   padding: 5px;
   height: 402px;
   margin: auto;
@@ -125,6 +130,7 @@ h5 {
   line-height: 1.4;
   color: white;
   border-top: solid 1px gainsboro;
+  margin-left: 15px;
 }
 
 .ultimo-tema{
@@ -133,6 +139,7 @@ h5 {
   line-height: 1.4;
   color: white;
   border-top: solid 1px gainsboro;
+  margin-left: 15px;
 }
 
 .artistTopSongs {
@@ -140,6 +147,7 @@ h5 {
   color: white;
   border-top: solid, 1px gainsboro;
   margin: -5px;
+  border-radius: 10px;
 }
 
 .fa-heart:before{
