@@ -25,7 +25,7 @@ window.addEventListener ("load", function()  {
                 <li class="track-item">
                 <div class="uk-card uk-card-default">
                     <div class="uk-card-media-top">
-                        <a href="albums.html">  <img class= "foto" src="` + trackImage + `" alt=""> </a>
+                        <a href="top-tracks.html">  <img class= "foto" src="` + trackImage + `" alt=""> </a>
                     </div>
                     <div class="uk-card-body">
                         <a href="artist.html" > <h3 class="uk-card-title">` + trackTitle + `<h3></a>
