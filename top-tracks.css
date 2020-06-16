@@ -37,9 +37,9 @@ body{
 }
 
 .imageSize {
-  width: 182%;
-  height: 300px;
-  border-radius: 50%;
+  width: 151%;
+  height: 304px;
+  border-radius: 53%;
   border: solid 1px gainsboro;
   margin-top: 65px;
 }
