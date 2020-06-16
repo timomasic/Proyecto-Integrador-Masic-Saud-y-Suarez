@@ -222,7 +222,7 @@ h2 {
     margin-top: 30px;
 }
 
-  .uk-grid>*>:last-child {
+.uk-grid>*>:last-child {
     margin-bottom: 0px;
     width: 50%;
     height: 395px;

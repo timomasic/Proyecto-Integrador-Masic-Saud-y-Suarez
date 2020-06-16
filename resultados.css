@@ -7,9 +7,16 @@ body {
 
 .subtitulo {
     text-align: center;
-    
+    background-color: #2692b7;
+    background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
+    padding: 5px;
 }
-  
+
+img.imagencancion.imgslide {
+    width: 25%;
+    height: 25%;
+}
+
 .headerDeezerTitle{
     margin-right: 0px !important;
     margin-left: 20px !important;
