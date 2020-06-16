@@ -166,10 +166,15 @@ footer{
     padding-left: 33px;
 }
 
-h2 {
+.titulos {
     margin-top: 20px;
+    background-color:  #2692b7;
+    background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb); 
+    margin-right: 620px;
+    margin-left: 560px;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
-
 
 .ultima-cancion{
   margin-top: 25px;
