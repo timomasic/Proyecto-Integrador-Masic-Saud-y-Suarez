@@ -28,7 +28,7 @@ window.addEventListener ("load", function()  {
                         <a href="top-tracks.html">  <img class= "foto" src="` + trackImage + `" alt=""> </a>
                     </div>
                     <div class="uk-card-body">
-                        <a href="artist.html" > <h3 class="uk-card-title">` + trackTitle + `<h3></a>
+                        <a href="top-tracks.html" > <h3 class="uk-card-title">` + trackTitle + `<h3></a>
                     </div>
                 </div>
                 </li>
