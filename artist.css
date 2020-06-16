@@ -6,20 +6,72 @@ body {
 }
   
 .myNavbar {
-    margin: 0;
-    width: 100%;
-    height: 60px;
-    margin-bottom: 20px;
-    display: flex;
-    background-color: #2692b7;
-    background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
+  margin: 0;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 20px;
+  display: flex;
+  background-color: #2692b7;
+  background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
+  position: relative
+}
+
+.headerDeezerTitle{
+  margin-right: 0px !important;
+  margin-left: 20px !important;
+  margin-top: 10px !important;
+  margin-bottom: 5px !important;
 }
   
+.play {
+  color: white;
+  font-size: 21px;
+  margin-top: 10px;
+  text-decoration: none;
+  margin-left: 85px;
+}
+
+.play:hover{
+  color: rgba(55,55,55,0.75)
+}
+
 .logoNav{
-    width: 45px;
-    height: 45px;
-    margin-top: 5px;
-    margin-left: 10px;
+  width: 75px;
+  height: 49px;
+  margin-top: 6px;
+  margin-left: 16px;
+  margin-right: 10px;
+}
+
+.searchBar {
+  overflow: hidden;
+  margin-left: 500px;
+}
+
+.searchBar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.searchBar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.searchBar input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  width: 82%;
+  margin-top: 15px;
 }
 
 .logoNav-footer{
@@ -79,7 +131,7 @@ footer {
   grid-template-columns: 30% 30% 40%;
   justify-content: space-between;
   border-radius: 30px;
-  margin-top: 135px;
+  margin-top: 365px;
 }
   
 .personalLogo {
@@ -88,15 +140,15 @@ footer {
 }
 
 h3{
-    margin-left: 45px;
-    margin-top: 17px;
-    color: aliceblue;
-    font-size: 20px;
-    text-decoration: none;
+  margin-left: 45px;
+  margin-top: 17px;
+  color: aliceblue;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 h3:hover{
-    color:rgba(55,55,55,0.75);
+  color:rgba(55,55,55,0.75);
 }
 
 .cancion:hover{
@@ -113,7 +165,7 @@ h3:hover{
 }
 
 .redes {
-    margin-top: -155px;
+    margin-top: -202px;
     margin-left: 375px;
     font-size: 92px;
 } 

@@ -81,10 +81,6 @@ h2{
     font-size: 30px;
     font-family: Arial,sans-serif;
 }
-
-h2:hover{
-    font-size: 40px;
-}
   
 .listTwo{
     list-style: none;
@@ -259,6 +255,7 @@ color: #E1306C;
 .foto{
   width: 100%;
 }
+
 
   @media screen  and (max-width: 768px){
     .grid-container {
