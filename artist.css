@@ -115,14 +115,41 @@ body {
 }
 
 h5 {
-    border: cornsilk;
+  font-size: 16px;
+  line-height: 1.4;
+  color: white;
+  border-top: solid 1px gainsboro;
+}
+.tema{
+  font-size: 16px;
+  line-height: 1.4;
+  color: white;
+  border-top: solid 1px gainsboro;
+}
+
+.ultimo-tema{
+  height: 62px;
+  font-size: 16px;
+  line-height: 1.4;
+  color: white;
+  border-top: solid 1px gainsboro;
 }
 
 .artistTopSongs {
-  margin-bottom: 2px;
-  font-size: x-large;
+  background-color: #2f3030;
+  color: white;
+  border-top: solid, 1px gainsboro;
+  margin: -5px;
 }
 
+.fa-heart:before{
+margin-right: 15px;
+}
+
+.fa-play-circle:before {
+  content: "\f144";
+  margin-left: 130px
+}
 footer {
   height: 250px;
   background-color: #2692b7;
