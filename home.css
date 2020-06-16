@@ -150,6 +150,8 @@ footer{
 .songs{
     background-color: #2f3030 ;
     color: white;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .cancion{
@@ -212,7 +214,11 @@ h2 {
     width: 82%;
     margin-top: 15px;
 }
-  
+
+.tituloAlbums {
+    margin-top: 15px;
+}
+
 .logoDeezer {
     width: 86%;
     margin-top: 30px;
