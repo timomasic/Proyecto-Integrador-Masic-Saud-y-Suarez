@@ -229,6 +229,24 @@ h3:hover{
     padding-top: 15px;
 }
 
+.redes {
+  margin-top: -203px;
+  margin-left: 375px;
+  font-size: 92px;
+} 
+
+.facebook{
+ color:	#3b5998 ;
+}
+
+.instagram{
+color: #E1306C;
+}
+
+.twitter{
+  color: #1DA1F2; 
+}
+
 
   @media screen  and (max-width: 768px){
    
