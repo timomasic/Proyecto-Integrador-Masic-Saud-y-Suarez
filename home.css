@@ -222,9 +222,10 @@ h2 {
     margin-top: 30px;
 }
 
-.uk-grid>*>:last-child {
-  margin-bottom: 0;
-  height: 860px;
+  .uk-grid>*>:last-child {
+    margin-bottom: 0px;
+    width: 50%;
+    height: 485px;
 }
 
 canvas,img,video{
@@ -251,6 +252,9 @@ color: #E1306C;
   color: #1DA1F2;
 }
 
+.foto{
+  width: 100%;
+}
 
   @media screen  and (max-width: 768px){
     .grid-container {
