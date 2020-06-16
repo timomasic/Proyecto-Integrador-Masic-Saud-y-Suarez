@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>albums</title>
-    <link rel="stylesheet" href="albums.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=I, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="albums.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <script src="albums.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/css/uikit.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit-icons.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-    <header class="header">
-      <a href="home.html"><img class="logoNav" src="sound-waves.png"></a>
-        <section class="topnav">
-            <li class="buscador">  
-               <nav class="flexsearch--wrapper">
-                 <form class="flexsearch--form" action="#" method="POST">
-                     <div class="flexsearch--input-wrapper">
-                       <input class="flexsearch--input" type="search" placeholder="search">
-                     </div>
-                 </form>
-               </nav>
-          </div>
-        </section>
-    </header>
+  <header class="myNavbar">
+    <nav class="logoDeezer-header" style="display: flex;">
+      <a href="home.html">
+        <img class="logoNav" src="sound-waves.png">
+      </a>
+      <h3 class="headerDeezerTitle">DEEZER</h3>
+      <a class="play" href="playlist.html">Check your playlist here!</a>
+    </nav>
+    <div class="searchBar">
+      <form class="formbuscador" method="GET" action="resultados.html">
+        <input type="text" class="input-text" name="buscador" placeholder="Search..">
+      </form>
+    </div>
+  </header>
 
     <main class="eminem">
         <nav class="grid-item">
@@ -66,8 +70,7 @@
 
        </article>
 
-       <br>
-       <br>
+       <br><br>  
 
        <footer>
         <div class="nuestro-logo">
@@ -76,24 +79,18 @@
         <div >
           <img class="logoDeezer" src="Deezer.png (1).png">
         </div>
-
         <nav class="alumnos">
-          <h3>Integrantes:
+          <h3 class="nombres">Integrantes:
             <ol class="nombres">Masic, Timoteo</ol>
             <ol class="nombres">Saud, Bautista</ol>
-          <ol class="nombres">Torrez, Facundo</ol>
-          <ol class="nombres"></ol>
+            <ol class="nombres">Torrez, Facundo</ol>
           </h3>
-
           <nav class="redes">
             <a class="facebook" href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             <a class="instagram" href="https://www.instagram.com/"> <i class="fa fa-instagram" aria-hidden="true"></i></a> 
-            <a class="twitter" href="https://twitter.com/explore"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/explore"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
            </nav>
-
         </nav>
-        
-
       </footer>
 </body>
 </html>
