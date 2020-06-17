@@ -23,14 +23,14 @@ window.addEventListener ("load", function()  {
 
                 let trackItem = `
                 <li class="track-item">
-                <div class="uk-card uk-card-default">
-                    <div class="uk-card-media-top">
-                        <a href="album.html?idalbum=`+trackId+`">  <img class= "foto" src="` + trackImage + `" alt=""> </a>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <a href="album.html?idalbum=`+trackId+`">  <img class= "foto" src="` + trackImage + `" alt=""> </a>
+                        </div>
+                        <div class="uk-card-body">
+                            <a href="album.html?idalbum=" > <h3 class="uk-card-title">` + trackTitle + `<h3></a>
+                        </div>
                     </div>
-                    <div class="uk-card-body">
-                        <a href="album.html?idalbum=" > <h3 class="uk-card-title">` + trackTitle + `<h3></a>
-                    </div>
-                </div>
                 </li>
                 `
                 document.querySelector(".trackList").innerHTML += trackItem;
