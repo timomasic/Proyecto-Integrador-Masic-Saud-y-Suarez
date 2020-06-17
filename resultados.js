@@ -4,7 +4,7 @@ window.addEventListener("load", function(){
     console.log(niidea)
     let queryString = new URLSearchParams(niidea)
     console.log(queryString)
-    let loBuscado = queryString.get ("searchBar");
+    let loBuscado = queryString.get ("buscador");
     console.log(loBuscado)
     fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/search?q=" + loBuscado + "")
     .then(
@@ -29,8 +29,8 @@ window.addEventListener("load", function(){
                 `
                 <li>
                     <a href="album.html?id=` + resultados.id + `">
-                        <img src="` + resultados.album.cover_small + `"></img>
-                        <h4>` + resultados.title_short + `</h4>
+                        <img src="` + resultados.album.cover_medium + `"></img>
+                        <h4>` + resultados.album.title + `</h4>
                     </a>
                 </li>
                 `
