@@ -27,12 +27,12 @@ window.addEventListener("load", function(){
             resultadoBusqueda.forEach(function(resultados) {
                 listadoResultados.innerHTML += 
                 `
-                <li>
+                <div>
                     <a href="album.html?id=` + resultados.id + `">
                         <img src="` + resultados.album.cover_medium + `"></img>
                         <h4>` + resultados.album.title + `</h4>
                     </a>
-                </li>
+                </div>
                 `
             });
 
