@@ -25,10 +25,10 @@ window.addEventListener ("load", function()  {
                 <li class="track-item">
                 <div class="uk-card uk-card-default">
                     <div class="uk-card-media-top">
-                        <a href="album.html">  <img class= "foto" src="` + trackImage + `" alt=""> </a>
+                        <a href="album.html?idalbum=`+trackId+`">  <img class= "foto" src="` + trackImage + `" alt=""> </a>
                     </div>
                     <div class="uk-card-body">
-                        <a href="album.html" > <h3 class="uk-card-title">` + trackTitle + `<h3></a>
+                        <a href="album.html?idalbum=" > <h3 class="uk-card-title">` + trackTitle + `<h3></a>
                     </div>
                 </div>
                 </li>
@@ -60,14 +60,14 @@ window.addEventListener ("load", function()  {
                 let artistItem = `<li>
                     <div class="uk-card uk-card-default">
                         <div class="uk-card-media-top">
-                            <img class="img-artist" src="` + artistPic + `" alt="artist N°` + i + `" >
+                        <a href="artist.html?idartist=`+artistId+`">  <img class= "foto" src="` + artistPic + `" alt=""> </a>
                     </div>
                     <div class="uk-card-body artist-body-card">
-                        <a href="artist.html?artistId=` + artistId + `"><h3>` + artistName + `</h3></a>
+                        <a href="artist.html?idartist="` +artistId+ `"><h3>` + artistName + `</h3></a>
                     </div>
                 </li>`    
              ;
-             document.querySelector("#topArtist").innerHTML += artistItem;
+             //document.querySelector(".topArtist").innerHTML += artistItem;
              }
             
         
@@ -101,12 +101,12 @@ window.addEventListener ("load", function()  {
                             <img class="img-track" src="` + trackPic + `" alt="track N°` + i + `" >
                         </div>
                         <div class="uk-card-body track-body-card">
-                        <a href="`+ video +`"><h3>` + trackName + `</h3></a>
+                        <a href="track.html?idtrack=`+ trackId+`"><h3>` + trackName + `</h3></a>
                         </div>
                     </div>
                 </li>`    
              ;
-             document.querySelector("#topTrack").innerHTML += trackItem;
+            //document.querySelector("#topTrack").innerHTML += trackItem;
             }
         }
     )
