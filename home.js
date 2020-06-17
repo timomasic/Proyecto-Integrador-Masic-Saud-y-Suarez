@@ -75,7 +75,7 @@ window.addEventListener ("load", function()  {
                 let trackPic = topTrack[i].album.cover_xl;
                 let video = topTrack[i].preview;
                 let trackItem = `<a class="despintar" href="https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/artists"><article class= "cancion"> `+ "1"+`<i class="far fa-heart">`+trackName+`</i><i><i class="fa fa-play-circle fa-2x" aria-hidden="true"></i><i> </article class= "cancion"></a>`
-            document.querySelector("#topTrack").innerHTML += trackItem;
+            document.querySelector("#topTrack").innerHTML += trackItem;                                                               //Hay que agregar una variable donde dice"1", asi aparece como un listado
             }
         }
     )
