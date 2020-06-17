@@ -278,6 +278,14 @@ color: #E1306C;
   background: transparent;
 }
 
+.cancion:hover{
+  color: #2cfc03;
+}
+
+.ultima-cancion:hover{
+  color: #2cfc03;
+}
+
 
   @media screen  and (max-width: 768px){
     .grid-container {
