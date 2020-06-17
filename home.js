@@ -3,7 +3,7 @@ window.addEventListener ("load", function()  {
     .then(
         function (respuesta){
             return respuesta.json();
-        }
+        } 
     )
     .then(
         function(information) {
