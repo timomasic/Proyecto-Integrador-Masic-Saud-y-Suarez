@@ -1,7 +1,11 @@
 window.addEventListener("load", function(){
-    let queryString = new URLSearchParams(location.search)
-
+    this.location.search
+    let niidea = location.search
+    console.log(niidea)
+    let queryString = new URLSearchParams(niidea)
+    console.log(queryString)
     let loBuscado = queryString.get ("searchBar");
+    console.log(loBuscado)
     fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/search?q=" + loBuscado + "")
     .then(
         function (respuesta){
@@ -12,34 +16,28 @@ window.addEventListener("load", function(){
 
     .then(
         function (resultado){
-
+            let listadoResultados = document.querySelector(".listadoResultados")
+            console.log(listadoResultados);
+            
             let resultadoBusqueda = resultado.data
-            console.log(resultado)
+            console.log(resultadoBusqueda)
 
-            for (let index = 5; index < resultadoBusqueda.length; index++) {
-                const cadaResultado = resultadoBusqueda[index];
-                
-                let trackTitle = cadaResultado.title;
-                let trackArtist = cadaResultado.artist.name;
-                let trackAlbum = cadaResultado.album.title;
-                let trackImage = cadaResultado.album.cover_big;
-                let trackId = cadaResultado.index
+            
 
-                let htmlResultado =
+            resultadoBusqueda.forEach(function(resultados) {
+                listadoResultados.innerHTML += 
                 `
                 <li>
-                    <div class="slide">
-                        <a href="detallecancion.html7iddeTrack=` + trackId + `">
-                            <img class="imagencancion imgslide" src="` + trackImage + `" alt="">
-                        </a>
-                        <div class="uk-position-bottom-center uk-panel">
-                            <h3 class="textoslide">` + trackTitle + ' / ' + trackArtist + `</h3>
-                        </div>
+                    <a href="album.html?id=` + resultados.id + `">
+                        <img src="` + resultados.album.cover_small + `"></img>
+                        <h4>` + resultados.title_short + `</h4>
+                    </a>
                 </li>
                 `
+            });
 
-                document.querySelector(".listadoResultados").innerHTML += htmlResultado;
+
             }
-        }
+        
     )
 })
