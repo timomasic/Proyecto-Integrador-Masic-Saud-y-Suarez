@@ -67,7 +67,7 @@ window.addEventListener ("load", function()  {
                     </div>
                 </li>`    
              ;
-             //document.querySelector(".topArtist").innerHTML += artistItem;
+             document.querySelector("#topArtist").innerHTML += artistItem;
              }
             
         
@@ -94,25 +94,14 @@ window.addEventListener ("load", function()  {
                 let trackPic = topTrack[i].album.cover_xl;
                 let video = topTrack[i].preview;
 
-                let trackItem = 
-                `<li>
-                    <div class="uk-card uk-card-default">
-                        <div class="uk-card-media-top">
-                            <img class="img-track" src="` + trackPic + `" alt="track N°` + i + `" >
-                        </div>
-                        <div class="uk-card-body track-body-card">
-                        <a href="track.html?idtrack=`+ trackId+`"><h3>` + trackName + `</h3></a>
-                        </div>
-                    </div>
-                </li>`    
-             ;
-            //document.querySelector("#topTrack").innerHTML += trackItem;
+                let trackItem = `<a href="https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/artists"><article class= "cancion"> `+trackId+`<i class="far fa-heart">`+trackName+`</i><i><i class="fa fa-play-circle fa-2x" aria-hidden="true"></i><i> </article class= "cancion"></a>`
+            document.querySelector("#topTrack").innerHTML += trackItem;
             }
         }
     )
 })
         
-//  let trackImage = trackList[i].album.cover_xl;
+//let trackImage = trackList[i].album.cover_xl;
 //top-tracks.html?trackId=` + trackId + `
 
     
