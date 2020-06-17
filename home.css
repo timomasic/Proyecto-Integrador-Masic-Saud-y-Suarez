@@ -286,6 +286,11 @@ color: #E1306C;
   color: #2cfc03;
 }
 
+.despintar{
+    text-decoration: none;
+    color: white;
+}
+
 
   @media screen  and (max-width: 768px){
     .grid-container {
