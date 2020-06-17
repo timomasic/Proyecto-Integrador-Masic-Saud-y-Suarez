@@ -23,7 +23,7 @@ window.addEventListener ("load", function()  {
 
                 let trackItem = `
                 <li class="track-item">
-                <div class="uk-card uk-card-default">
+                <div class="ocultar" class="uk-card uk-card-default">
                     <div class="uk-card-media-top">
                         <a href="album.html?idalbum=`+trackId+`">  <img class= "foto" src="` + trackImage + `" alt=""> </a>
                     </div>

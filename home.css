@@ -273,6 +273,10 @@ color: #E1306C;
   height: 345px;
 }
 
+.ocultar{
+  background: transparent;
+}
+
 
   @media screen  and (max-width: 768px){
     .grid-container {
