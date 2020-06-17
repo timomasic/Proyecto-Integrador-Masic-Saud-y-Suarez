@@ -266,6 +266,7 @@ color: #E1306C;
 
 .foto{
   width: 100%;
+  border-radius: 110%;
 }
 
 .fotos-slide {
