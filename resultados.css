@@ -14,7 +14,11 @@ body {
     margin-right: 500px;
     font-size: large;
     border-radius: 50px;
-    }
+}
+
+.tituloResultado {
+    margin-top: 10px;
+}
 
 img.imagencancion.imgslide {
     width: 25%;
