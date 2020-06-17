@@ -70,6 +70,7 @@ width: 90%;
   padding-left: 74px;
   margin-left: 137px;
   margin-right: 103px;
+  border-radius: 25px;
 }
 
 .songs{
@@ -227,6 +228,24 @@ h3:hover{
 
 .flexsearch--input-wrapper{
     padding-top: 15px;
+}
+
+.redes {
+  margin-top: -203px;
+  margin-left: 375px;
+  font-size: 92px;
+} 
+
+.facebook{
+ color:	#3b5998 ;
+}
+
+.instagram{
+color: #E1306C;
+}
+
+.twitter{
+  color: #1DA1F2; 
 }
 
 

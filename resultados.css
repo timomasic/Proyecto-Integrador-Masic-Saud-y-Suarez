@@ -10,6 +10,14 @@ body {
     background-color: #2692b7;
     background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
     padding: 5px;
+    margin-left: 500px; 
+    margin-right: 500px;
+    font-size: large;
+    border-radius: 50px;
+}
+
+.tituloResultado {
+    margin-top: 10px;
 }
 
 img.imagencancion.imgslide {
