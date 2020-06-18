@@ -8,9 +8,9 @@ body {
 .subtitulo {
     text-align: center;
     background-color: #2692b7;
-    background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
+    background-image: linear-gradient(56deg, #0087c1 13%, #89d7bb);
     padding: 5px;
-    margin-left: 500px; 
+    margin-left: 500px;
     margin-right: 500px;
     font-size: large;
     border-radius: 50px;
@@ -20,19 +20,32 @@ body {
     margin-top: 10px;
 }
 
-.listadoResultados {
+.megaMain {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+}
+
+.listadoResultadosAlbums {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 90%;
     margin: auto;
 }
 
+.listadoResultadosTracks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 90%;
+    margin: auto;
+}
+
+
 img.imagencancion.imgslide {
     width: 25%;
     height: 25%;
 }
 
-.headerDeezerTitle{
+.headerDeezerTitle {
     margin-right: 0px !important;
     margin-left: 20px !important;
     margin-top: 10px !important;
@@ -47,10 +60,10 @@ img.imagencancion.imgslide {
     margin-bottom: 20px;
     display: flex;
     background-color: #2692b7;
-    background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
+    background-image: linear-gradient(56deg, #0087c1 13%, #89d7bb);
     position: relative
 }
-  
+
 .logoNav {
     width: 58px;
     height: 55px;
@@ -66,7 +79,7 @@ img.imagencancion.imgslide {
     margin-left: 10px;
 }
 
-h3{
+h3 {
     margin-left: 45px;
     margin-top: 17px;
     color: aliceblue;
@@ -74,49 +87,50 @@ h3{
     text-decoration: none;
 }
 
-h3:hover{
-    color:rgba(55,55,55,0.75);
-    
+h3:hover {
+    color: rgba(55, 55, 55, 0.75);
+
 }
-  
-a{
+
+a {
     text-decoration: none;
 }
-  
-.home{
+
+.home {
     margin: 0;
     width: 100%;
     height: 100%;
 }
-  
+
 .play {
     color: white;
     font-size: 21px;
     margin-top: 10px;
     text-decoration: none;
     margin-left: 85px;
-    
-}
-.play:hover{
-    color: rgba(55,55,55,0.75)
-}
-  
-h2{
-    margin: 20px;
-    color:  rgba(55,55,55,0.75);
-    text-align: center;
-    font-size: 30px;
-    font-family: Arial,sans-serif;
+
 }
 
-h2:hover{
+.play:hover {
+    color: rgba(55, 55, 55, 0.75)
+}
+
+h2 {
+    margin: 20px;
+    color: rgba(55, 55, 55, 0.75);
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+}
+
+h2:hover {
     font-size: 40px;
 }
-  
-.listTwo{
+
+.listTwo {
     list-style: none;
 }
-  
+
 .grid-container {
     display: inline-grid;
     grid-template-columns: auto auto auto;
@@ -124,73 +138,74 @@ h2:hover{
     margin: auto;
     margin-left: 50px;
 }
-  
+
 .grid-container2 {
     grid-template-columns: auto auto auto;
 }
-  
+
 .grid-item {
     padding: 20px;
     font-size: 30px;
     text-align: center;
 }
-  
-.item{
-    color: rgba(55,55,55,0.75);
+
+.item {
+    color: rgba(55, 55, 55, 0.75);
     font-size: 20px;
     text-align: center;
     text-decoration: none;
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
 }
-.item:hover{
-    color:#ff0000;
+
+.item:hover {
+    color: #ff0000;
     border: solid 1px #ff0000;
     border-radius: 180px;
 }
-  
-.imageSize{
+
+.imageSize {
     width: 80%;
     height: 263px;
     border-radius: 50%;
     border: solid 1px gainsboro;
 }
 
-.imageSize:hover{
+.imageSize:hover {
     border: solid 3px #2cfc03;
 }
 
-.flexsearch--form{
-    padding-left: 500px; 
+.flexsearch--form {
+    padding-left: 500px;
 }
-  
-footer{
+
+footer {
     height: 250px;
     background-color: #2692b7;
-    background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
+    background-image: linear-gradient(56deg, #0087c1 13%, #89d7bb);
     display: grid;
     grid-template-columns: 30% 30% 40%;
     justify-content: space-between;
     border-radius: 30px;
 }
-  
+
 .personalLogo {
     height: 226px;
     padding: 15px;
 }
 
-.songs{
-    background-color: #2f3030 ;
+.songs {
+    background-color: #2f3030;
     color: white;
 }
 
-.cancion{
+.cancion {
     margin-top: 25px;
-    border-top: solid 1px gainsboro ;
+    border-top: solid 1px gainsboro;
     padding-top: 25px;
     padding-left: 45px;
 }
 
-.fa-heart:before{
+.fa-heart:before {
     padding-right: 33px;
     padding-left: 33px;
 }
@@ -200,17 +215,17 @@ h2 {
 }
 
 
-.ultima-cancion{
-  margin-top: 25px;
-  border-top: solid 1px gainsboro ;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 45px;
- }
+.ultima-cancion {
+    margin-top: 25px;
+    border-top: solid 1px gainsboro;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 45px;
+}
 
- .fa-play-circle:before {
-  content: "\f144";
-  margin-left: 1000px;
+.fa-play-circle:before {
+    content: "\f144";
+    margin-left: 1000px;
 }
 
 .searchBar {
@@ -243,106 +258,110 @@ h2 {
     width: 82%;
     margin-top: 15px;
 }
-  
+
 .logoDeezer {
     width: 86%;
     margin-top: 30px;
 }
 
 .uk-grid>*>:last-child {
-  margin-bottom: 0;
-  height: 860px;
+    margin-bottom: 0;
+    height: 860px;
 }
 
-canvas,img,video{
-  max-width: 100%;
-  height: 690px;
-  box-sizing: border-box;
+canvas,
+img,
+video {
+    max-width: 100%;
+    height: 690px;
+    box-sizing: border-box;
 }
 
 .redes {
-  margin-top: -203px;
-  margin-left: 375px;
-  font-size: 92px;
-} 
-
-.facebook{
- color:	#3b5998 ;
+    margin-top: -203px;
+    margin-left: 375px;
+    font-size: 92px;
 }
 
-.instagram{
-color: #E1306C;
+.facebook {
+    color: #3b5998;
 }
 
-.twitter{
-  color: #1DA1F2;
+.instagram {
+    color: #E1306C;
+}
+
+.twitter {
+    color: #1DA1F2;
 }
 
 
-  @media screen  and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .grid-container {
-      display: grid;
-      grid-template-columns: auto auto;
-      justify-content: space-between;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
     }
 
-    body{
-      background-image: url(https://images.unsplash.com/photo-1557682257-2f9c37a3a5f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1700&q=80);
-      background-image: none;    
+    body {
+        background-image: url(https://images.unsplash.com/photo-1557682257-2f9c37a3a5f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1700&q=80);
+        background-image: none;
     }
 
     .myNavbar {
-      width: 100%;
+        width: 100%;
     }
+
     .searchBar {
-      overflow: hidden;
-      margin-left: 198px;
+        overflow: hidden;
+        margin-left: 198px;
     }
+
     .searchBar input[type=text] {
-      float: right;
-      padding: 6px;
-      border: none;
-      margin-top: 13px;
-      margin-right: 16px;
-      font-size: 17px;
+        float: right;
+        padding: 6px;
+        border: none;
+        margin-top: 13px;
+        margin-right: 16px;
+        font-size: 17px;
     }
 
-     .logoDeezer {
-      width: 112%;
-      margin-top: 65px;   
-      }
+    .logoDeezer {
+        width: 112%;
+        margin-top: 65px;
+    }
 
-     .logoNav-footer {
-      width: 73%;
-      height: 191px;
-      margin-top: 45px;
-      margin-left: 10px;
-     }
+    .logoNav-footer {
+        width: 73%;
+        height: 191px;
+        margin-top: 45px;
+        margin-left: 10px;
+    }
 
-     .play {
-      color: white;
-      font-size: 21px;
-      padding: 0px;
-      text-decoration: none;
-      margin-left: 85px;
-      padding-top: 8px;
-      font-size: large;
-     }
+    .play {
+        color: white;
+        font-size: 21px;
+        padding: 0px;
+        text-decoration: none;
+        margin-left: 85px;
+        padding-top: 8px;
+        font-size: large;
+    }
 
-     .searchBar input[type=text] {
-      float: right;
-      padding: 6px;
-      border: none;
-      margin-top: 14px;
-      margin-right: 11px;
-      font-size: 17px;
-      padding-right: 12px;
-      padding-left: 28px;
-     }
+    .searchBar input[type=text] {
+        float: right;
+        padding: 6px;
+        border: none;
+        margin-top: 14px;
+        margin-right: 11px;
+        font-size: 17px;
+        padding-right: 12px;
+        padding-left: 28px;
+    }
 
-     .redes {
-      margin-top: -198px;
-      margin-left: 238px;
-      font-size: 59px;
-     }
- }
+    .redes {
+        margin-top: -198px;
+        margin-left: 238px;
+        font-size: 59px;
+    }
+}
