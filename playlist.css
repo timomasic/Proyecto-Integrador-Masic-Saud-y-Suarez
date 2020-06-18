@@ -114,6 +114,12 @@ h3:hover {
   margin-top: 11px;
 }
 
+.uk-link, a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
 .subtitle {
   margin-left: 25px;
 }
