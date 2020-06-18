@@ -29,34 +29,35 @@ window.addEventListener("load", function () {
             </div>
         </article>
     `
+            let playlist = []
+            console.log(playlist)
+            let recuperoStorage = localStorage.getItem('playlist');
+            if (recuperoStorage == null) {
+                playlist = [];
+            } else {
+                playlist = JSON.parse(recuperoStorage);
+            }
+
+            if (playlist.includes(idTrack)) {
+                document.querySelector('.boton').innerHTML = '<i class="fas fa-heart"></i>'
+            }
+            let agregar = document.querySelector('.boton');
+            agregar.addEventListener('click', function () {
+                if (playlist.includes(idTrack)) {
+                    let indiceEnElArray = playlist.indexOf(idTrack);
+                    playlist.splice(indiceEnElArray, 1);
+                    document.querySelector('.boton').innerHTML = '<i class="far fa-heart"></i>';
+                    console.log(playlist);
+                } else {
+                    playlist.push(idTrack);
+                    document.querySelector('.boton').innerHTML = '<i class="fas fa-heart"></i>';
+
+                }
+                let playlistParaStorage = JSON.stringify(playlist);
+                localStorage.setItem('playlist', playlistParaStorage);
+                console.log(localStorage);
+            })
         });
 
-    let playlist = []
-    console.log(playlist)
-    let recuperoStorage = localStorage.getItem('playlist');
-    if (recuperoStorage == null) {
-        playlist = [];
-    } else {
-        playlist = JSON.parse(recuperoStorage);
-    }
 
-    if (playlist.includes(idTrack)) {
-        document.querySelector('.boton').innerHTML = '<i class="fas fa-heart"></i>'
-    }
-    let agregar = document.querySelector('.boton');
-    agregar.addEventListener('click', function () {
-        if (playlist.includes(idTrack)) {
-            let indiceEnElArray = playlist.indexOf(idTrack);
-            playlist.splice(indiceEnElArray, 1);
-            document.querySelector('.boton').innerHTML = '<i class="far fa-heart"></i>';
-            console.log(playlist);
-        } else {
-            playlist.push(idTrack);
-            document.querySelector('.boton').innerHTML = '<i class="fas fa-heart"></i>';
-
-        }
-        let playlistParaStorage = JSON.stringify(playlist);
-        localStorage.setItem('playlist', playlistParaStorage);
-        console.log(localStorage);
-    })
 })
