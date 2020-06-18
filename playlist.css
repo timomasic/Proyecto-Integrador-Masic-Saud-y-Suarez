@@ -139,8 +139,9 @@ main {
 .cancion {
   margin-top: 25px;
   border-top: solid 1px gainsboro;
-  padding-top: 25px;
-  padding-left: 45px;
+  /* padding-top: 25px;
+  padding-left: 45px; */
+  padding: 20px;
 }
 
 .fa-heart:before {

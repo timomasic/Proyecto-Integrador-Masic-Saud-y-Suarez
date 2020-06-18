@@ -28,7 +28,7 @@ function buscarYMostrarTrack(idTrack) {
             });
             
             let playlistWrapper = document.querySelector('.playlistWrapper');
-            playlistWrapper.innerHTML += '<li><article class="cancion"><a class="despintar" href="tracks.html?id='+ track.id +'"><article class= "cancion"><a class="" href="tracks.html?id=' + track.id + `">` + track.title + '</a></article class= "cancion"></a></article></li>';
+            playlistWrapper.innerHTML += '<a class="despintar" href="tracks.html?id='+ track.id +'"><article class= "cancion"><a class="" href="tracks.html?id=' + track.id + `">` + track.title + '</a></article class= "cancion"></a>'
             console.log(track)
         })
 }
