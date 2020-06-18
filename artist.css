@@ -16,6 +16,10 @@ body {
   position: relative
 }
 
+#foto-artista {
+  height: 90%;
+}
+
 .headerDeezerTitle{
   margin-right: 0px !important;
   margin-left: 20px !important;
@@ -106,10 +110,8 @@ body {
 }
 
 .artistName{
-  background-color: #2692b7;
-  background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
-  height: 85px;
   border-radius: 10px;
+  height: 100%;
 }
 
 .topSongs {
