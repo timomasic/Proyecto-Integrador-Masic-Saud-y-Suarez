@@ -40,7 +40,7 @@ window.addEventListener("load", function () {
 
 
 
-    fetch("https://api.deezer.com/search/track?q=" + loBuscado)
+    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/search/track?q=" + loBuscado)
         .then(
             function (respuesta) {
                 return respuesta.json();
@@ -60,9 +60,9 @@ window.addEventListener("load", function () {
                     listadoResultados.innerHTML +=
                         `
                 <li>
-                    <a href="album.html?id=` + resultados.id + `">
+                    <a href="tracks.html?id=` + resultados.id + `">
                         <img src="` + resultados.album.cover_medium + `"></img>
-                        <h4>` + resultados.album.title + `</h4>
+                        <h4>` + resultados.title + `</h4>
                     </a>
                 </li>
                 `
