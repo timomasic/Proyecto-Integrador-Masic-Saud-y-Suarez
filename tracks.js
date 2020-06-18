@@ -23,8 +23,7 @@ window.addEventListener ("load", function()  {
         <article class="trackInfo">
             <div class="artistDetails">
               <h1>`+ datos.artist.name +`</h1>
-              <h3>`+ datos.album.title +`</p>
-              <button class="boton"><i class="far fa-heart"></i></button>
+              <h3>`+ datos.album.title + `<button class="boton"><i class="far fa-heart"></i></button>` +`</p>
             </div>
         </article>
     `
