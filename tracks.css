@@ -140,7 +140,7 @@ body {
 
 .reproductor {
   position: fixed;
-  position: bottom;
+  margin-top: 53px;
 }
 
 h5 {
