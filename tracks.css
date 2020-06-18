@@ -110,6 +110,10 @@ margin-top: 41px;
   padding: 5px;
 }
 
+.boton {
+  background-color: #2692b7;
+  border: white 0px solid;
+}
 
 .mainTrack {
   display: flex;
@@ -287,8 +291,7 @@ color: #E1306C;
     }
 
   .imageSize {
-    width: 62%;
-    height: 300px;
+    width: 200%;
     border-radius: 50%;
     border: solid 1px gainsboro;
     margin-top: 31px;

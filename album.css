@@ -39,10 +39,10 @@ width: 90%;
 
   .imageSize {
     width: 100%;
-    height: 351px;
-    border-radius: 53%;
+    height: 250px;
+    border-radius: 50%;
     border: solid 1px gainsboro;
-    margin-top: 65px;
+    margin-top: 41px;
 }
 
 .item{
