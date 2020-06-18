@@ -70,16 +70,52 @@ window.addEventListener ("load", function()  {
             let topTrack = information.data;
             for (let i = 0; i< topTrack.length; i++){
                 console.log("hola");
+                let trackPosition = topTrack[i].position;
                 let trackId = topTrack[i].id;
                 let trackName = topTrack[i].title;
                 let trackPic = topTrack[i].album.cover_xl;
                 let video = topTrack[i].preview;
-                let trackItem = `<a class="despintar" href="https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/artists"><article class= "cancion"> `+ "1"+`<i class="far fa-heart">`+trackName+`</i><i><i class="fa fa-play-circle fa-2x" aria-hidden="true"></i><i> </article class= "cancion"></a>`
+                let trackItem = `<a class="despintar" href="https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/artists"><article class= "cancion"> `+ trackPosition + `<button class="boton"><i class="far fa-heart"></button></i>`+trackName+`<i class="fa fa-play-circle fa-2x" aria-hidden="true"></i><i> </article class= "cancion"></a>`
             document.querySelector("#topTrack").innerHTML += trackItem;                                                               //Hay que agregar una variable donde dice"1", asi aparece como un listado
             }
         }
     )
+
+    let queryString = location.search;
+    let datos = new URLSearchParams (queryString);
+    let idTrack = datos.get (trackId);
+    console.log(idTrack); 
+    let playlist = []
+    let recuperoStorage = localStorage.getItem('playlist') ;
+    if(recuperoStorage == null){
+        playlist = [];
+    }else {
+        playlist = JSON.parse(recuperoStorage) ;
+    }
+    
+    if(playlist.includes(trackId)){
+        document.querySelector('.boton').innerHTML = '<i class="fas fa-heart"></i>'
+    }
+    let agregar = document.querySelector('.boton') ;
+    agregar.addEventListener('click', function(){
+        if(playlist.includes(trackId)){
+            let indiceEnElArray = playlist.indexOf(trackId);
+            playlist.splice(indiceEnElArray, 1);
+            document.querySelector('.boton').innerHTML = '<i class="far fa-heart"></i>' ;
+            console.log(playlist);
+        } else{
+         playlist.push(trackId);
+         document.querySelector('.boton').innerHTML = '<i class="fas fa-heart"></i>' ;
+    
+        }
+         let playlistParaStorage = JSON.stringify(playlist) ;
+         localStorage.setItem('playlist', playlistParaStorage) ;
+         console.log(localStorage);
+    })
+
 })
+
+
 //let trackImage = trackList[i].album.cover_xl;
 //top-tracks.html?trackId=` + trackId + `
 //`+trackId+`

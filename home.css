@@ -210,6 +210,16 @@ footer{
     color: black;
 }
 
+.boton {
+    background-color: #2f3030;
+    border: black 0px solid;
+    color: white;   
+}
+
+.boton :hover {
+    color: greenyellow;
+}
+
 .searchBar input[type=text] {
     float: right;
     padding: 6px;
