@@ -22,19 +22,28 @@ body {
 
 .listadoResultados {
   display: grid;
-  grid-template-columns: 1fr ;
-  width: 20%;
+  grid-template-columns:  1fr 1fr 1fr 1fr ;
+  width: 80%;
   margin: auto;
   background-color: #2692b7;
   background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
   margin-top: 40px;
-  margin-left: 60px;
+  margin-left: 130px;
   border-radius: 40px;
 }
 
 
-.generos{
-  margin-left: 50px;
+
+
+.generos {
+  margin-left: 60px;
+  font-size: 25px;
+  font-family: italic;
+  margin-top: 15px;
+}
+
+.generos:hover{
+  color:white
 }
 
 img.imagencancion.imgslide {
@@ -181,7 +190,7 @@ footer{
   grid-template-columns: 30% 30% 40%;
   justify-content: space-between;
   border-radius: 30px;
-  margin-top: 65px;
+  margin-top: 35px;
 }
 
 .personalLogo {
