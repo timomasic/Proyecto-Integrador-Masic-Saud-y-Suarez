@@ -34,10 +34,7 @@ window.addEventListener("load", function(){
                     </a>
                 </div>
                 `
-            });
-
-
+            })
             }
-        
     )
 })
