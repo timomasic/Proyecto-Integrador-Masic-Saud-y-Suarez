@@ -70,4 +70,35 @@ window.addEventListener("load", function () {
             }
 
         )
+        
+        fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/search/artist?q=" + loBuscado)
+        .then(
+            function (respuesta) {
+                return respuesta.json();
+
+            }
+        )
+        .then(
+            function (resultado) {
+                let listadoResultados = document.querySelector(".listadoResultadosArtists")
+                console.log(listadoResultados);
+
+                let resultadoBusqueda = resultado.data
+                console.log(resultadoBusqueda)
+
+
+                resultadoBusqueda.forEach(function (resultados) {
+                    listadoResultados.innerHTML +=
+                        `
+                <li>
+                    <a href="artist.html?id=` + resultados.id + `">
+                        <img src="` + resultados.picture_medium + `"></img>
+                        <h4>` + resultados.name + `</h4>
+                    </a>
+                </li>
+                `
+                });
+            }
+
+        )
 })
