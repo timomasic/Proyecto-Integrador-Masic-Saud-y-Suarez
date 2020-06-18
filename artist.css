@@ -107,18 +107,31 @@ body {
 
 .mainArtist {
     display: flex;
+    margin-left: -655px;
+    margin-top: 40px;
 }
+
 
 .artistName{
   border-radius: 10px;
   height: 100%;
+  margin-top: -25px;
 }
+
+.error-desktop{
+    font-weight: bolder;
+    margin-right: 536px;
+    font-size: 55px;
+}
+
+.boton{}
 
 .topSongs {
   padding: 5px;
   height: 402px;
   margin: auto;
   margin-top: 36px;
+  margin-left: 678px;
 }
 
 h5 {
@@ -135,21 +148,35 @@ h5 {
   margin-left: 15px;
 }
 
-.ultimo-tema{
-  height: 62px;
+.lines{
+  margin-left: 30px;
+  margin-top: -30px;
+}
+
+.ultimo-tema {
+  height: 40px;
   font-size: 16px;
   line-height: 1.4;
   color: white;
   border-top: solid 1px gainsboro;
-  margin-left: 15px;
+  margin-left: 5px;
+  width: 98%;
+}
+
+.hipervinculos{
+  text-decoration: none;
+  color: white;
 }
 
 .artistTopSongs {
   background-color: #2f3030;
   color: white;
   border-top: solid, 1px gainsboro;
-  margin: -5px;
+  margin: -361px;
   border-radius: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: -15px;
 }
 
 .fa-heart:before{
@@ -168,7 +195,7 @@ footer {
   grid-template-columns: 30% 30% 40%;
   justify-content: space-between;
   border-radius: 30px;
-  margin-top: 365px;
+  margin-top: 425px;
 }
   
 .personalLogo {
