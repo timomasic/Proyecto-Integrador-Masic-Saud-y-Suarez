@@ -40,7 +40,7 @@ window.addEventListener("load", function () {
 
 
 
-        fetch("https://api.deezer.com/search/track?q=" + loBuscado)
+    fetch("https://api.deezer.com/search/track?q=" + loBuscado)
         .then(
             function (respuesta) {
                 return respuesta.json();
