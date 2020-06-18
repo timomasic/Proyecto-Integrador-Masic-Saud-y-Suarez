@@ -54,7 +54,7 @@ window.addEventListener("load", function () {
                             let idTrack = element.id
                             document.querySelector(".artistTopSongs").innerHTML += `<h5 class="ultimo-tema">` + +`<i class="far fa-heart">` + `</i></h5> </h2>
                         <article class="lines" >` + (i + 1) + "-" + `
-                        <a class="hipervinculos" href="Tracks.html?idTrack=` + idTrack + `">` + nombre + `</a>
+                        <a class="hipervinculos" href="tracks.html?idTrack=` + idTrack + `">` + nombre + `</a>
                         </article>
                         
                         
