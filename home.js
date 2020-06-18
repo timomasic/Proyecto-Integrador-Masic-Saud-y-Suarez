@@ -1,23 +1,23 @@
-window.addEventListener ("load", function()  {  
-    
+window.addEventListener("load", function () {
+
     fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/")
-    .then(
-        function (respuesta){
-            return respuesta.json();
-        }  
-    )
-    .then(
-        function(information) {
-            let track = document.querySelector ("li .track-item") 
-            let trackList = information.tracks.data;
-            for (let i = 0; i < trackList.length; i++) {
-                console.log(trackList);
-                let trackId = trackList[i].id;
-                let trackTitle = trackList[i].title_short;
-                let trackArtist = trackList[i].artist.name;
-                let trackArtistId = trackList[i].artist.id;
-                let trackImage = trackList[i].album.cover_xl;
-                let trackItem = `
+        .then(
+            function (respuesta) {
+                return respuesta.json();
+            }
+        )
+        .then(
+            function (information) {
+                let track = document.querySelector("li .track-item")
+                let trackList = information.tracks.data;
+                for (let i = 0; i < trackList.length; i++) {
+                    console.log(trackList);
+                    let trackId = trackList[i].id;
+                    let trackTitle = trackList[i].title_short;
+                    let trackArtist = trackList[i].artist.name;
+                    let trackArtistId = trackList[i].artist.id;
+                    let trackImage = trackList[i].album.cover_xl;
+                    let trackItem = `
                 <li class="track-item">
                     <div class="ocultar" class="uk-card uk-card-default">
                         <div class="uk-card-media-top">
@@ -29,58 +29,55 @@ window.addEventListener ("load", function()  {
                     </div>
                 </li>
                 `
-                document.querySelector(".trackList").innerHTML += trackItem;
+                    document.querySelector(".trackList").innerHTML += trackItem;
+                }
             }
-        }
-    )
+        )
     fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/artists")
-    .then(
-        function(respuestas){
-            return respuestas.json();  
-        })
-    .then(function(information){
-            let artist = document.querySelector ("li.topArtist")
-            console.log (information)
+        .then(
+            function (respuestas) {
+                return respuestas.json();
+            })
+        .then(function (information) {
+            let artist = document.querySelector("li.topArtist")
+            console.log(information)
             let topArtist = information.data;
-            for (let i = 0; i< topArtist.length; i++){
+            for (let i = 0; i < topArtist.length; i++) {
                 let artistId = topArtist[i].id;
                 let artistName = topArtist[i].name;
                 let artistPic = topArtist[i].picture_xl;
                 let artistItem = `<li>
                     <div class="ocultar" class="uk-card uk-card-default">
                         <div class="uk-card-media-top">
-                        <a href="artist.html?idartist=`+artistId+`">  <img class= "foto" src="` + artistPic + `" alt=""> </a>
+                        <a href="artist.html?idartist=` + artistId + `">  <img class= "foto" src="` + artistPic + `" alt=""> </a>
                     </div>
                     <div class="uk-card-body artist-body-card">
-                        <a href="artist.html?idartist="` +artistId+ `"><h3>` + artistName + `</h3></a>
+                        <a href="artist.html?idartist="` + artistId + `"><h3>` + artistName + `</h3></a>
                     </div>
-                </li>`    
-             ;
-             document.querySelector("#topArtist").innerHTML += artistItem;
-             }
-        }
-    )
-    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/tracks")
-    .then(
-        function(respuestas){
-            return respuestas.json();
+                </li>`;
+                document.querySelector("#topArtist").innerHTML += artistItem;
+            }
         })
-    .then(function(information){
+    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/tracks")
+        .then(
+            function (respuestas) {
+                return respuestas.json();
+            })
+        .then(function (information) {
             let tracks = document.querySelector("li.topTracks")
             console.log(information)
             let topTrack = information.data;
-            for (let i = 0; i< topTrack.length; i++){
+            for (let i = 0; i < topTrack.length; i++) {
                 console.log("hola");
                 let trackPosition = topTrack[i].position;
                 let trackId = topTrack[i].id;
                 let trackName = topTrack[i].title;
                 let trackPic = topTrack[i].album.cover_xl;
                 let prueba = topTrack[i].preview;
-                let trackItem = `<a class="despintar" href="https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/artists"><article class= "cancion"> `+ trackPosition + `<button class="boton"><i class="far fa-heart"></button></i><a class="" href="tracks.html?id=`+ trackId +`">`+trackName+`</a></article class= "cancion"></a>`
-            document.querySelector("#topTrack").innerHTML += trackItem;
+                let trackItem = `<a class="despintar" href="https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/artists"><article class= "cancion"> ` + trackPosition + `<button class="boton"><i class="far fa-heart"></button></i><a class="" href="tracks.html?id=` + trackId + `">` + trackName + `</a></article class= "cancion"></a>`
+                document.querySelector("#topTrack").innerHTML += trackItem;
             }
-        }
-    )
+        })
 })
 
 

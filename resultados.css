@@ -20,7 +20,12 @@ body {
     margin-top: 10px;
 }
 
-.listadoResultados {
+.megaMain {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+}
+
+.listadoResultadosAlbums {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 90%;
