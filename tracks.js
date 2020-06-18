@@ -57,6 +57,9 @@ window.addEventListener("load", function () {
                 localStorage.setItem('playlist', playlistParaStorage);
                 console.log(localStorage);
             })
+
+            let player = document.querySelector('iframe');
+            player.src = 'https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=1500&height=350&color=007FEB&layout=dark&size=medium&type=tracks&id=' + idTrack + '&app_id=1'
         });
 
 
