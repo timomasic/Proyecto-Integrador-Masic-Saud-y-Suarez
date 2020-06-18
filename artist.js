@@ -1,9 +1,9 @@
 window.addEventListener("load", function() {
-
+    
     let queryString = new URLSearchParams(location.search);
-
-    let numeroArtista = queryString.get("idArtista");
-
+  
+    let numeroArtista = queryString.get("idartist");
+    console.log(numeroArtista);
     fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + numeroArtista)
     .then(function(respuesta) {
         return respuesta.json()
@@ -19,25 +19,22 @@ window.addEventListener("load", function() {
         let nombre = information.name
         let imagen = information.picture_xl
         let fans = information.nb_fan
-        let topCanciones = information.tracklist
+        let topTrack= information.tracklist
         
 
-        document.querySelector(".position").innerHTML = `<img  id="foto-perfil" src="` + imagen +`" alt="foto de` + " " + nombre +`"></li> 
-            <b>` + nombre +`</b>`
+        document.querySelector(".artistName").innerHTML += `<img  id="foto-artista" src="` + imagen +`" alt="foto de` + " " + nombre +`"></li>`
 
-        document.querySelector(".detalle").innerHTML = `
+        document.querySelector("#detalle").innerHTML += `
             <li><b class="error-desktop">` + nombre+`</b></li>
             <li class="boton">
                 <button type="button">
                 Follow</button>
             </li>
-            <li>` + numberWithCommas(fans) + " " +`fans</li>
+            <li>` + (fans) + " " +`fans</li>
             `
-        document.querySelector(".top5").innerHTML = `<h2 class="populares"> Top 5 Canciones </h2>`
-
-
+       
         
-            fetch("https://cors-anywhere.herokuapp.com/" + topCanciones)
+            fetch("https://cors-anywhere.herokuapp.com/" + topTrack)
 
             .then(function(respuesta) {
                 return respuesta.json()
@@ -46,17 +43,17 @@ window.addEventListener("load", function() {
             .then(function(information) {
             console.log(information);
         
-                let topCanciones = information.data
+                let topTrack = information.data
                 
-        
+                let cancion = document.querySelector("#topSongs")
+                console.log (cancion)
+
                 for (let i = 0; i < 5; i++) {
-                    const element = topCanciones[i];
+                    const element = topTrack[i];
         
                     let nombre = element.title
                     let idTrack = element.id
-        
-                    document.querySelector(".topCanciones").innerHTML += `<section>
-                    
+                    document.querySelector(".artistTopSongs").innerHTML += `<h5 class="ultimo-tema">`+ +`<i class="far fa-heart">`+`</i><i class="fa fa-play-circle fa-2x" aria-hidden="true"></i></h5> </h2>
                         <article class="" >` + (i+1) +`
                         <a href="Tracks.html?idTrack=`+ idTrack +`">` + nombre +`</a>
                         </article>
@@ -68,22 +65,24 @@ window.addEventListener("load", function() {
                         
                 }
 
-                    element.addEventListener("click", function () {
-                        let idTrack = this.getAttribute("idCancion")
+                    element.addEventListener("load", function () {
+                        let trackId = this.getAttribute("idCancion")
                         
                         let ArrayCancionesFavs
 
-                        if(localStorage.getItem("canciones")
-                        { ArrayCancionesFavs = localStorage.getItem("canciones").split(",")
-                            ArrayCancionesFavs.push(idTrack)}
+                        if(localStorage.getItem("canciones") ){ 
+                            
+                           ArrayCancionesFavs = localStorage.getItem("canciones").splist(",")
+                           ArrayCancionesFavs.push(idTrack)
+                        }
                     
                         else {
-                            ArrayCancionesFavs = [idTrack]
+                            ArrayCancionesFavs = [trackId]
                         
                 
                         localStorage.setItem("canciones", ArrayCancionesFavs);
-                    })
-                }
+                    }}
+                        )}
 
             
                             

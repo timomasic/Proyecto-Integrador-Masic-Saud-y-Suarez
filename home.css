@@ -73,7 +73,15 @@ a{
 .play:hover{
     color: rgba(55,55,55,0.75)
 }
-  
+
+.generos{
+  color: white;
+    font-size: 21px;
+    margin-top: 10px;
+    text-decoration: none;
+    margin-left: 85px;
+}
+
 h2{
     margin: 20px;
     color:  rgba(55,55,55,0.75);
