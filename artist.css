@@ -18,6 +18,7 @@ body {
 
 #foto-artista {
   height: 90%;
+  border-radius: 15px;
 }
 
 .headerDeezerTitle {
@@ -130,6 +131,22 @@ body {
   margin: auto;
   margin-top: 36px;
   margin-left: 678px;
+}
+
+.fans{
+    font-size: 35px;
+    margin-top: 35px;
+}
+
+.contenedor{
+  margin-right: 145px;
+  margin-top: 45px;
+}
+
+.boton{
+    padding: 10px;
+    width: 18%;
+    margin-top: 30px;
 }
 
 h5 {

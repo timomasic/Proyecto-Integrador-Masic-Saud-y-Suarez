@@ -313,6 +313,12 @@ video {
     color: #2cfc03;
 }
 
+.uk-link, a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
 .despintar {
     text-decoration: none;
     color: white;

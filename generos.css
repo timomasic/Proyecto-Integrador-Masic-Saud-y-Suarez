@@ -14,6 +14,7 @@ body {
   margin-right: 500px;
   font-size: large;
   border-radius: 50px;
+  margin-top: 40px;
 }
 
 .tituloResultado {
@@ -22,13 +23,8 @@ body {
 
 .listadoResultados {
   display: grid;
-<<<<<<< HEAD
   grid-template-columns:  1fr 1fr 1fr 1fr ;
   width: 80%;
-=======
-  grid-template-columns: 1fr;
-  width: 20%;
->>>>>>> 324ec75b76051422712eacc94cd7c1ff5de9088c
   margin: auto;
   background-color: #2692b7;
   background-image: linear-gradient(56deg, #0087c1 13%, #89d7bb);
@@ -38,7 +34,6 @@ body {
 }
 
 
-<<<<<<< HEAD
 
 
 .generos {
@@ -50,10 +45,6 @@ body {
 
 .generos:hover{
   color:white
-=======
-.generos {
-  margin-left: 50px;
->>>>>>> 324ec75b76051422712eacc94cd7c1ff5de9088c
 }
 
 img.imagencancion.imgslide {

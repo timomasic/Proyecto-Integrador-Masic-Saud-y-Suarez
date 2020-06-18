@@ -24,12 +24,14 @@ window.addEventListener("load", function () {
             document.querySelector(".artistName").innerHTML += `<img  id="foto-artista" src="` + imagen + `" alt="foto de` + " " + nombre + `"></li>`
 
             document.querySelector("#detalle").innerHTML += `
+            <div class="contenedor">
             <li><b class="error-desktop">` + nombre + `</b></li>
             <li class="boton">
                 <button type="button">
                 Follow</button>
             </li>
-            <li>` + (fans) + " " + `fans</li>
+            <li class="fans">` + (fans) + " " + `fans</li>
+            </div>
             `
 
 
