@@ -6,6 +6,8 @@ window.addEventListener("load", function () {
                 return respuesta.json();
             }
         )
+
+        //albulms
         .then(
             function (information) {
                 console.log(information)
@@ -33,6 +35,8 @@ window.addEventListener("load", function () {
                 }
             }
         )
+
+        //artista
     fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/artists")
         .then(
             function (respuestas) {
@@ -58,6 +62,8 @@ window.addEventListener("load", function () {
                 document.querySelector("#topArtist").innerHTML += artistItem;
             }
         })
+
+        //tracks
     fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/tracks")
         .then(
             function (respuestas) {
