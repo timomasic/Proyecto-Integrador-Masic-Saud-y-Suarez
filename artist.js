@@ -56,7 +56,7 @@ window.addEventListener("load", function () {
                     let idTrack = element.id
                     document.querySelector(".artistTopSongs").innerHTML += `<h5 class="ultimo-tema"><i class="far fa-heart"></i><i class="fa fa-play-circle fa-2x" aria-hidden="true"></i></h5> </h2>
                         <article class="canciones" >` + (i+1) +`
-                        <a class="despintar" href="Tracks.html?idTrack=`+"  "+ idTrack +`">` + nombre +`</a>
+                        <a class="despintar" href="tracks.html?idTrack=`+"  "+ idTrack +`">` + nombre +`</a>
                         </article>
                         
                         <article class="add-playlist">
