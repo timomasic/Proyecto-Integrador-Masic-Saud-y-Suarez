@@ -39,7 +39,7 @@ fetch(url)
         let nuevoHtmlTops = `       
         <li class="altura">
             <a class="despintar" href="tracks.html?id=`+ id +`">`+ name+`</a>
-        </li>
+         </li>
         `
         document.querySelector(".cancionesDelAlbum").innerHTML += nuevoHtmlTops
     }})

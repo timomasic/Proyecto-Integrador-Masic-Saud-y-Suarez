@@ -27,7 +27,7 @@ window.addEventListener("load", function () {
                     listadoResultados.innerHTML +=
                         `
                 <li>
-                    <a href="album.html?id=` + resultados.id + `">
+                    <a href="album.html?idalbum=` + resultados.album.id + `">
                         <img src="` + resultados.album.cover_medium + `"></img>
                         <h4>` + resultados.album.title + `</h4>
                     </a>
