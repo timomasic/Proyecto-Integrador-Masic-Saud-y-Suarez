@@ -21,8 +21,8 @@ fetch(url)
 
     let infoAlbum = document.querySelector(".infoAlbum") 
     infoAlbum.innerHTML = `
-    <img src="`+ coverAlbum +`"
-    <h3>`+ nombreAlbum +`</h3>`
+    <img class="foto" src="`+ coverAlbum +`"
+    <h3 class="nombre">`+ nombreAlbum +`</h3>`
 
     fetch(url)
     .then(function(response){
@@ -37,8 +37,8 @@ fetch(url)
         let name = cadaAlbum.title;
         let id = cadaAlbum.id;
         let nuevoHtmlTops = `       
-        <li>
-            <a href="tracks.html?id=`+ id +`">`+ name+`</a>
+        <li class="altura">
+            <a class="despintar" href="tracks.html?id=`+ id +`">`+ name+`</a>
         </li>
         `
         document.querySelector(".cancionesDelAlbum").innerHTML += nuevoHtmlTops
