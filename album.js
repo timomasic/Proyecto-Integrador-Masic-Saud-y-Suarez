@@ -22,18 +22,26 @@ fetch(url)
     let infoAlbum = document.querySelector(".infoAlbum") 
     infoAlbum.innerHTML = `
     <img src="`+ coverAlbum +`"
-    <h3>`+ nombreAlbum +`</h3>
-    `
-    for (let index = 0; index < albumsData.length; index++) {
-        const element = albumsData[index];
-        let temasAlbum = document.querySelector(".cancionesDelAlbum")
-        let nombreAlbumCancionId = data.tracks.data.id;
-        let nombreAlbumCancion = data.tracks.data.title;
-        temasAlbum.innerHTML = `
+    <h3>`+ nombreAlbum +`</h3>`
+
+    fetch(url)
+    .then(function(response){
+        return response.json();
+    })
+    .then(
+    function(resultado) {
+        console.log (resultado)
+        const tracksAlbums = resultado.tracks.data;
+        for (let index = 0; index <= tracksAlbums.length; index++) {
+        const cadaAlbum = tracksAlbums[index];
+        let name = cadaAlbum.title;
+        let id = cadaAlbum.id;
+        let nuevoHtmlTops = `       
         <li>
-            <a href="tracks.html?id=`+ nombreAlbumCancionId +`">`+ nombreAlbumCancion +`</a>
+            <a href="tracks.html?id=`+ id +`">`+ name+`</a>
         </li>
         `
-    }
+        document.querySelector(".cancionesDelAlbum").innerHTML += nuevoHtmlTops
+    }})
 })
 
