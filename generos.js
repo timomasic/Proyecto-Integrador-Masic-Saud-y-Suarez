@@ -13,12 +13,15 @@ for (let index = 0; index < info.length; index++) {
     const music= info[index];
     let title = music.name
     let infoGenre= music.id
-    let genreItem= '<a href="detalle-genero.html?id-genero='+infoGenre+'"><h3 class="generos">'+ "."+title+'</h3> </a>'
+    let genreItem= '<a href="detalleGenero.html?idGenero='+infoGenre+'"><h3 class="generos">'+ "."+title+'</h3> </a>'
 
     
 
-document.querySelector(".listadoResultados").innerHTML += genreItem; 
+document.querySelector("div.listadoResultados").innerHTML += genreItem; 
 
 }
     })
     })
+
+    //
+//let nuevohtml='<div> <a href="detalleGenero.html?idGenero='+infoGenre+'> <h3 class="generos">'+title+'</h3></a> </div>'
