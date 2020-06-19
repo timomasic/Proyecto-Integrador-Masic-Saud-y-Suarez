@@ -17,8 +17,9 @@ body {
 }
 
 #foto-artista {
-  height: 90%;
+  height: 430px;
   border-radius: 15px;
+  margin-left: 752px;
 }
 
 .headerDeezerTitle {
@@ -141,8 +142,15 @@ body {
 .contenedor{
   margin-right: 145px;
   margin-top: 45px;
+  margin-left: -1050px;
 }
 
+
+.button{
+    padding: 10px;
+    width: 115px;
+    margin-left: -33px;
+}
 .boton{
     padding: 10px;
     width: 18%;
@@ -170,13 +178,20 @@ h5 {
 }
 
 .ultimo-tema {
-  height: 40px;
+  height: 0px;
   font-size: 16px;
   line-height: 1.4;
   color: white;
   border-top: solid 1px gainsboro;
-  margin-left: 5px;
+  margin-left: 10px;
   width: 98%;
+}
+
+
+.far {
+  font-weight: 400;
+  margin-left: 1139px;
+  margin-top: 25px;
 }
 
 .hipervinculos {
@@ -184,15 +199,30 @@ h5 {
   color: white;
 }
 
+.despintar{
+  text-decoration: none;
+  color: white;
+}
+
+.mas{
+    margin-top: -25px;
+    margin-left: 20px;
+}
+
 .artistTopSongs {
   background-color: #2f3030;
   color: white;
   border-top: solid, 1px gainsboro;
-  margin: -361px;
-  border-radius: 10px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: -15px;
+  margin: -413px;
+  border-radius: 15px;
+  margin-left: -76px;
+  margin-right: 269px;
+  margin-top: 442px;
+  width: 100%;
+}
+
+.canciones{
+  margin-left: 55px;
 }
 
 .fa-heart:before {

@@ -27,7 +27,7 @@ window.addEventListener("load", function () {
             <div class="contenedor">
             <li><b class="error-desktop">` + nombre + `</b></li>
             <li class="boton">
-                <button type="button">
+                <button class="button" type="button">
                 Follow</button>
             </li>
             <li class="fans">` + (fans) + " " + `fans</li>
@@ -55,12 +55,12 @@ window.addEventListener("load", function () {
                     let nombre = element.title
                     let idTrack = element.id
                     document.querySelector(".artistTopSongs").innerHTML += `<h5 class="ultimo-tema"><i class="far fa-heart"></i><i class="fa fa-play-circle fa-2x" aria-hidden="true"></i></h5> </h2>
-                        <article class="" >` + (i+1) +`
-                        <a href="Tracks.html?idTrack=`+ idTrack +`">` + nombre +`</a>
+                        <article class="canciones" >` + (i+1) +`
+                        <a class="despintar" href="Tracks.html?idTrack=`+"  "+ idTrack +`">` + nombre +`</a>
                         </article>
                         
                         <article class="add-playlist">
-                            <i class="fas fa-plus botoncito"  idCancion=` + idTrack + `></i>
+                            <i class="mas" class="fas fa-plus botoncito"  idCancion=` + idTrack + `></i>
                         </article>
                         
                         
