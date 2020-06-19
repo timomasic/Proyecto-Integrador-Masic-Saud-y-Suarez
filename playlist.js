@@ -20,12 +20,6 @@ function buscarYMostrarTrack(idTrack) {
             return response.json();
         })
         .then(function (track) {
-            playlist.forEach(function(x) {
-                let cantidad = 0;
-                cantidad++;
-                let cantidadCanciones = document.querySelector(".cantidadCanciones")
-                cantidadCanciones.innerHTML = cantidad + " Songs"
-            });
             
             let playlistWrapper = document.querySelector('.playlistWrapper');
             playlistWrapper.innerHTML += '<a class="despintar" href="tracks.html?id='+ track.id +'"><article class= "cancion"><a class="" href="tracks.html?id=' + track.id + `">` + track.title + '</a></article class= "cancion"></a>'
