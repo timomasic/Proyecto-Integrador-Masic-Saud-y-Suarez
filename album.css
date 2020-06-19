@@ -5,7 +5,7 @@
     justify-content: space-between;
     background-color: #2692b7;
     background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
-    position: fixed;
+    position: none;
 }
 
 body{
@@ -57,7 +57,7 @@ width: 90%;
       display: grid;
       grid-template-columns: 30% 70%;
       justify-content: space-between;
-      margin-top: -100px;
+      margin-top: 1px;
 }
 
 .facts {
