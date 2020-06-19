@@ -16,7 +16,7 @@ function (informacionGeneros) {
     console.log(informacionGeneros)
 
     let genreImg=porGeneros.picture_medium;
-    let genreName= porGeneros.Name;
+    let genreName= porGeneros.name;
     let genreId= porGeneros.id;
 
     let htmlGeneros= `
@@ -31,7 +31,6 @@ function (informacionGeneros) {
 }
 
 )
-
 
 
 
