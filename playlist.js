@@ -1,33 +1,34 @@
 let recuperoStorage = localStorage.getItem('playlist');
 let playlist = JSON.parse(recuperoStorage);
-
 let playlistWrapper = document.querySelector('.playlistWrapper');
-console.log(recuperoStorage);
-if(recuperoStorage == null || recuperoStorage == "[]"){
-    playlist = [];
-    playlistWrapper.innerHTML += '<li> No hay canciones en tu playlist </li>'
-    console.log(playlistWrapper);
-    
-} else {
+console.log(playlist);
 
-    playlist.forEach(function(idTrack){
+if (recuperoStorage == null || recuperoStorage == "[]") {
+    playlist = [];
+    playlistWrapper.innerHTML += '<h2 class="noHay"> ¡No hay canciones! </h2>'
+    console.log(playlistWrapper);
+} else {
+    playlist.forEach(function (idTrack) {
         buscarYMostrarTrack(idTrack);
     });
 }
 
-function buscarYMostrarTrack(idTrack){
-    let proxy = 'https://cors-anywhere.herokuapp.com/';
-    let url = proxy + 'https://api.deezer.com/track/' + idTrack;
-
+function buscarYMostrarTrack(idTrack) {
+    let url = 'https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/' + idTrack;
     fetch(url)
         .then(function (response) {
             return response.json();
         })
         .then(function (track) {
-            playlistWrapper.innerHTML += '<li>' + '<a href="track.html?id=' + track.id + '">' + track.title + '</a></li>' 
-        })
-        .catch(function(errors){
-            console.log(errors);
+            playlist.forEach(function(x) {
+                let cantidad = 0;
+                cantidad++;
+                let cantidadCanciones = document.querySelector(".cantidadCanciones")
+                cantidadCanciones.innerHTML = cantidad + " Songs"
+            });
             
+            let playlistWrapper = document.querySelector('.playlistWrapper');
+            playlistWrapper.innerHTML += '<a class="despintar" href="tracks.html?id='+ track.id +'"><article class= "cancion"><a class="" href="tracks.html?id=' + track.id + `">` + track.title + '</a></article class= "cancion"></a>'
+            console.log(track)
         })
-};
+}

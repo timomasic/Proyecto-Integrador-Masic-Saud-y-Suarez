@@ -1,10 +1,10 @@
 body {
-    background-image: url(https://images.unsplash.com/photo-1557682257-2f9c37a3a5f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1700&q=80);
-    background-repeat: no-repeat;
-    background-position: fixed;
-    background-size: cover;
+  background-image: url(https://images.unsplash.com/photo-1557682257-2f9c37a3a5f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1700&q=80);
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
 }
-  
+
 .myNavbar {
   margin: 0;
   width: 100%;
@@ -12,17 +12,22 @@ body {
   margin-bottom: 20px;
   display: flex;
   background-color: #2692b7;
-  background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
+  background-image: linear-gradient(56deg, #0087c1 13%, #89d7bb);
   position: relative
 }
 
-.headerDeezerTitle{
+#foto-artista {
+  height: 90%;
+  border-radius: 15px;
+}
+
+.headerDeezerTitle {
   margin-right: 0px !important;
   margin-left: 20px !important;
   margin-top: 10px !important;
   margin-bottom: 5px !important;
 }
-  
+
 .play {
   color: white;
   font-size: 21px;
@@ -31,8 +36,8 @@ body {
   margin-left: 85px;
 }
 
-.play:hover{
-  color: rgba(55,55,55,0.75)
+.play:hover {
+  color: rgba(55, 55, 55, 0.75)
 }
 
 .logoNav {
@@ -74,23 +79,23 @@ body {
   margin-top: 15px;
 }
 
-.logoNav-footer{
-    width: 73%;
-    height: 268px;
-    margin-top: -3px;
-    margin-left: 10px;
+.logoNav-footer {
+  width: 73%;
+  height: 268px;
+  margin-top: -3px;
+  margin-left: 10px;
 }
 
-.flexsearch--form{
-    padding-left: 500px; 
-    padding-top: 18px;
+.flexsearch--form {
+  padding-left: 500px;
+  padding-top: 18px;
 }
 
 .grid-item {
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    height: 100px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 100px;
 }
 
 .imageSize {
@@ -102,14 +107,22 @@ body {
 }
 
 .mainArtist {
-    display: flex;
+  display: flex;
+  margin-left: -655px;
+  margin-top: 40px;
 }
 
-.artistName{
-  background-color: #2692b7;
-  background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
-  height: 85px;
+
+.artistName {
   border-radius: 10px;
+  height: 100%;
+  margin-top: -25px;
+}
+
+.error-desktop {
+  font-weight: bolder;
+  margin-right: 536px;
+  font-size: 55px;
 }
 
 .topSongs {
@@ -117,6 +130,23 @@ body {
   height: 402px;
   margin: auto;
   margin-top: 36px;
+  margin-left: 678px;
+}
+
+.fans{
+    font-size: 35px;
+    margin-top: 35px;
+}
+
+.contenedor{
+  margin-right: 145px;
+  margin-top: 45px;
+}
+
+.boton{
+    padding: 10px;
+    width: 18%;
+    margin-top: 30px;
 }
 
 h5 {
@@ -125,7 +155,8 @@ h5 {
   color: white;
   border-top: solid 1px gainsboro;
 }
-.tema{
+
+.tema {
   font-size: 16px;
   line-height: 1.4;
   color: white;
@@ -133,48 +164,63 @@ h5 {
   margin-left: 15px;
 }
 
-.ultimo-tema{
-  height: 62px;
+.lines {
+  margin-left: 30px;
+  margin-top: -30px;
+}
+
+.ultimo-tema {
+  height: 40px;
   font-size: 16px;
   line-height: 1.4;
   color: white;
   border-top: solid 1px gainsboro;
-  margin-left: 15px;
+  margin-left: 5px;
+  width: 98%;
+}
+
+.hipervinculos {
+  text-decoration: none;
+  color: white;
 }
 
 .artistTopSongs {
   background-color: #2f3030;
   color: white;
   border-top: solid, 1px gainsboro;
-  margin: -5px;
+  margin: -361px;
   border-radius: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: -15px;
 }
 
-.fa-heart:before{
-margin-right: 15px;
+.fa-heart:before {
+  margin-right: 15px;
 }
 
 .fa-play-circle:before {
   content: "\f144";
   margin-left: 130px
 }
+
 footer {
   height: 250px;
   background-color: #2692b7;
-  background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
+  background-image: linear-gradient(56deg, #0087c1 13%, #89d7bb);
   display: grid;
   grid-template-columns: 30% 30% 40%;
   justify-content: space-between;
   border-radius: 30px;
-  margin-top: 365px;
-}
-  
-.personalLogo {
-    height: 226px;
-    padding: 15px;
+  margin-top: 425px;
 }
 
-h3{
+.personalLogo {
+  height: 226px;
+  padding: 15px;
+}
+
+h3 {
   margin-left: 45px;
   margin-top: 17px;
   color: aliceblue;
@@ -182,105 +228,105 @@ h3{
   text-decoration: none;
 }
 
-h3:hover{
-  color:rgba(55,55,55,0.75);
+h3:hover {
+  color: rgba(55, 55, 55, 0.75);
 }
 
-.cancion:hover{
-    color: #1bc908;
-}
-
-.ultima-cancion:hover{
+.cancion:hover {
   color: #1bc908;
 }
 
-.logoDeezer{
+.ultima-cancion:hover {
+  color: #1bc908;
+}
+
+.logoDeezer {
   width: 86%;
   margin-top: 29px;
 }
 
 .redes {
-    margin-top: -202px;
-    margin-left: 375px;
-    font-size: 92px;
-} 
-
-.facebook{
-   color:	#3b5998 ;
+  margin-top: -202px;
+  margin-left: 375px;
+  font-size: 92px;
 }
 
-.instagram{
+.facebook {
+  color: #3b5998;
+}
+
+.instagram {
   color: #E1306C;
 }
 
-.twitter{
-    color: #1DA1F2;
+.twitter {
+  color: #1DA1F2;
 }
 
 
-  @media screen  and (max-width: 768px){
-    
-    .grid-container {
-      display: grid;
-      grid-template-columns: auto auto;
-      justify-content: space-between;
-    }
+@media screen and (max-width: 768px) {
 
-    body{
-      background-image: url(https://images.unsplash.com/photo-1557682257-2f9c37a3a5f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1700&q=80);
-      background-image: none;    
-    }
-
-    .myNavbar {
-      width: 100%;
-    }
-
-    .topnav {
-      overflow: hidden;
-      margin-left: 198px;
-    }
-
-    .topnav input[type=text] {
-      float: right;
-      padding: 6px;
-      border: none;
-      margin-top: 13px;
-      margin-right: 16px;
-      font-size: 17px;
-    }
-
-    .logoNav-footer {
-      width: 73%;
-      height: 191px;
-      margin-top: 45px;
-      margin-left: 10px;
-    }
-
-     .logoDeezer {
-      width: 112%;
-      margin-top: 65px;
-     }
-
-     .logoNav {
-      width: 45px;
-      height: 45px;
-      margin-top: 9px;
-      margin-left: 10px;
-     }
-
-     .topSongs {
-      background-color: #2692b7;
-      background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
-      padding: 5px;
-      height: 420px;
-      margin-right: 40px;
-      }
-
-    .imageSize {
-      width: 62%;
-      height: 300px;
-      border-radius: 50%;
-      border: solid 1px gainsboro;
-      margin-top: 31px;
-     }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
   }
+
+  body {
+    background-image: url(https://images.unsplash.com/photo-1557682257-2f9c37a3a5f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1700&q=80);
+    background-image: none;
+  }
+
+  .myNavbar {
+    width: 100%;
+  }
+
+  .topnav {
+    overflow: hidden;
+    margin-left: 198px;
+  }
+
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 13px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+  .logoNav-footer {
+    width: 73%;
+    height: 191px;
+    margin-top: 45px;
+    margin-left: 10px;
+  }
+
+  .logoDeezer {
+    width: 112%;
+    margin-top: 65px;
+  }
+
+  .logoNav {
+    width: 45px;
+    height: 45px;
+    margin-top: 9px;
+    margin-left: 10px;
+  }
+
+  .topSongs {
+    background-color: #2692b7;
+    background-image: linear-gradient(56deg, #0087c1 13%, #89d7bb);
+    padding: 5px;
+    height: 420px;
+    margin-right: 40px;
+  }
+
+  .imageSize {
+    width: 62%;
+    height: 300px;
+    border-radius: 50%;
+    border: solid 1px gainsboro;
+    margin-top: 31px;
+  }
+}

@@ -1,179 +1,331 @@
-.header{
-    width: 100%;
-    position: fixed;
-    display: grid;
-    grid-template-columns: 25%  60% 15% ;
-    justify-content: space-between;
-    background-color: #2692b7;
-    background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb)
-}
- body{
-    background-image: url("./img.GT/malte-wingen-PDX_a_82obo-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-position: fixed;
-    background-size: cover;
-}
- .atras-adelante{
-    margin-left: 35px;
-    margin-top: 19px;
+body {
+  background-image: url(https://images.unsplash.com/photo-1557682257-2f9c37a3a5f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1700&q=80);
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
 }
 
- .buscador{
-    padding-bottom: 11px;
+.subtitulo {
+  text-align: center;
+  background-color: #2692b7;
+  background-image: linear-gradient(56deg, #0087c1 13%, #89d7bb);
+  padding: 5px;
+  margin-left: 500px;
+  margin-right: 500px;
+  font-size: large;
+  border-radius: 50px;
+  margin-top: 40px;
+}
+
+.tituloResultado {
+  margin-top: 10px;
+}
+
+.listadoResultados {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr 1fr ;
+  width: 80%;
+  margin: auto;
+  background-color: #2692b7;
+  background-image: linear-gradient(56deg, #0087c1 13%, #89d7bb);
+  margin-top: 40px;
+  margin-left: 130px;
+  border-radius: 40px;
 }
 
 
- .grid-container{
-    width: 400px;
-    height: 400px;
-    border-radius: 205px;
-    border: solid 1px gainsboro;
+
+
+.generos {
+  margin-left: 60px;
+  font-size: 25px;
+  font-family: italic;
+  margin-top: 15px;
 }
 
- .grid-item {
-    padding: 100px;
-    font-size: 30px;
-    
+.generos:hover{
+  color:white
+}
+
+img.imagencancion.imgslide {
+  width: 25%;
+  height: 25%;
+}
+
+.headerDeezerTitle {
+  margin-right: 0px !important;
+  margin-left: 20px !important;
+  margin-top: 10px !important;
+  margin-bottom: 5px !important;
+
+}
+
+.myNavbar {
+  margin: 0;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 20px;
+  display: flex;
+  background-color: #2692b7;
+  background-image: linear-gradient(56deg, #0087c1 13%, #89d7bb);
+  position: relative
+}
+
+.logoNav {
+  width: 58px;
+  height: 55px;
+  margin-top: 6px;
+  margin-left: 16px;
+  margin-right: 10px;
+}
+
+.logoNav-footer {
+  width: 73%;
+  height: 268px;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+
+h3 {
+  margin-left: 45px;
+  margin-top: 17px;
+  color: aliceblue;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+h3:hover {
+  color: rgba(55, 55, 55, 0.75);
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.home {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.play {
+  color: white;
+  font-size: 21px;
+  margin-top: 10px;
+  text-decoration: none;
+  margin-left: 85px;
+
+}
+
+.play:hover {
+  color: rgba(55, 55, 55, 0.75)
+}
+
+h2 {
+  margin: 20px;
+  color: rgba(55, 55, 55, 0.75);
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+}
+
+h2:hover {
+  font-size: 40px;
+}
+
+.listTwo {
+  list-style: none;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+  margin: auto;
+  margin-left: 50px;
+}
+
+.grid-container2 {
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.item {
+  color: rgba(55, 55, 55, 0.75);
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+.item:hover {
+  color: #ff0000;
+  border: solid 1px #ff0000;
+  border-radius: 180px;
 }
 
 .imageSize {
-  width: 164%;
-  height: 300px;
+  width: 80%;
+  height: 263px;
   border-radius: 50%;
   border: solid 1px gainsboro;
-  margin-top: 82px;
 }
 
-  .item{
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    text-decoration: none;
-    font-family: Arial,sans-serif;
-  }
-
-  .eminem{
-      display: grid;
-      grid-template-columns: 30% 70%;
-      justify-content: space-between;
-  }
-  .facts{
-      color: white;
-      margin-left: 123px;
-    margin-top: 232px;
-    background-color: #2692b7;
-    background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
-    height: 190px;
-    padding-left: 22px;
-}
-  .songs{
-    background-color: #2f3030 ;
-    color: white;
+.imageSize:hover {
+  border: solid 3px #2cfc03;
 }
 
-  .ultima-cancion{
-    margin-top: 25px;
-    border-top: solid 1px gainsboro ;
-    padding-top: 25px;
-    padding-left: 45px;
+.flexsearch--form {
+  padding-left: 500px;
 }
 
-  .cancion{
-    margin-top: 25px;
-    border-top: solid 1px gainsboro ;
-    padding-top: 25px;
-    padding-left: 45px;
-}
-  .fa-heart:before{
-    padding-right: 33px;
-    padding-left: 33px;
-}
-
-  footer{
-    height: 250px;
-    background-color: #2692b7;
-    background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
+footer {
+  height: 250px;
+  background-color: #2692b7;
+  background-image: linear-gradient(56deg, #0087c1 13%, #89d7bb);
   display: grid;
   grid-template-columns: 30% 30% 40%;
   justify-content: space-between;
   border-radius: 30px;
+  margin-top: 35px;
+}
+
+.personalLogo {
+  height: 226px;
+  padding: 15px;
+}
+
+.songs {
+  background-color: #2f3030;
+  color: white;
+}
+
+.cancion {
+  margin-top: 25px;
+  border-top: solid 1px gainsboro;
+  padding-top: 25px;
+  padding-left: 45px;
+}
+
+.fa-heart:before {
+  padding-right: 33px;
+  padding-left: 33px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+
+.ultima-cancion {
+  margin-top: 25px;
+  border-top: solid 1px gainsboro;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 45px;
+}
+
+.fa-play-circle:before {
+  content: "\f144";
+  margin-left: 1000px;
+}
+
+.searchBar {
+  overflow: hidden;
+  margin-left: 500px;
+}
+
+.searchBar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.searchBar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.searchBar input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  width: 82%;
+  margin-top: 15px;
+}
+
+.logoDeezer {
+  width: 86%;
+  margin-top: 30px;
+}
+
+.uk-grid>*>:last-child {
+  margin-bottom: 0;
+  height: 860px;
+}
+
+canvas,
+img,
+video {
+  max-width: 100%;
+  height: 690px;
+  box-sizing: border-box;
+}
+
+.redes {
+  margin-top: -203px;
+  margin-left: 375px;
+  font-size: 92px;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.instagram {
+  color: #E1306C;
+}
+
+.twitter {
+  color: #1DA1F2;
+}
+
+
+@media screen and (max-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
   }
 
-  .logoDeezer{
-    width: 86%;
-    margin-top: 16px;
-    }
-
-  .personalLogo {
-    height: 226px;
-    padding: 15px;
-   } 
-
-   .ultima-cancion{
-    margin-top: 25px;
-    border-top: solid 1px gainsboro ;
-    padding-top: 25px;
-    padding-bottom: 25px;
-   }
-
-   .ultima-cancion:hover{
-    color: #1bc908;
-   }
-
-   .cancion:hover{
-       color: #1bc908;
-   }
-
-   .logoNav{
-    width: 45px;
-    height: 45px;
-    margin-top: 7px;
-    margin-left: 10px;
+  body {
+    background-image: url(https://images.unsplash.com/photo-1557682257-2f9c37a3a5f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1700&q=80);
+    background-image: none;
   }
 
-  .logoNav-footer{
-    width: 73%;
-    height: 268px;
-    margin-top: 7px;
-    margin-left: 10px;
+  .myNavbar {
+    width: 100%;
   }
 
-  h3:hover{
-    color:rgba(55,55,55,0.75);
+  .searchBar {
+    overflow: hidden;
+    margin-left: 198px;
   }
 
-  h3{
-    margin-left: 45px;
-    margin-top: 17px;
-    color: aliceblue;
-    font-size: 20px;
-    text-decoration: none;
-  }
-
-
-  @media screen  and (max-width: 768px){
-    
-    .grid-container {
-      display: grid;
-      grid-template-columns: auto auto;
-      justify-content: space-between;
-    }
-
-    body{
-      background-color: royalblue;
-      background-image: none;    
-    }
-
-    .myNavbar {
-      width: 100%;
-    }
-
-    .topnav {
-      overflow: hidden;
-      margin-left: 198px;
-    }
-
-  .topnav input[type=text] {
+  .searchBar input[type=text] {
     float: right;
     padding: 6px;
     border: none;
@@ -183,16 +335,8 @@
   }
 
   .logoDeezer {
-  width: 112%;
-  margin-top: 65px;
-  }
-
-  .grid-item {
-    padding: 65px;
-    font-size: 30px;
-    width: 173%;
-    padding-left: 5%;
-    padding-top: 66%;
+    width: 112%;
+    margin-top: 65px;
   }
 
   .logoNav-footer {
@@ -202,34 +346,30 @@
     margin-left: 10px;
   }
 
-  .logoDeezer {
-  width: 112%;
-  margin-top: 65px;
+  .play {
+    color: white;
+    font-size: 21px;
+    padding: 0px;
+    text-decoration: none;
+    margin-left: 85px;
+    padding-top: 8px;
+    font-size: large;
   }
 
-  .imageSize {
-    width: 84%;
-    height: 300px;
-    border-radius: 50%;
-    border: solid 1px gainsboro;
-    margin-top: 65px;
+  .searchBar input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 14px;
+    margin-right: 11px;
+    font-size: 17px;
+    padding-right: 12px;
+    padding-left: 28px;
   }
 
   .redes {
-  margin-top: -133px;
-  margin-left: 375px;
-  font-size: 92px;
-  } 
-
-  .facebook{
- color:	#3b5998 ;
+    margin-top: -198px;
+    margin-left: 238px;
+    font-size: 59px;
   }
-
-  .instagram{
-color: #E1306C;
-  }
-
-  .twitter{
-  color: #1DA1F2;
-  }
-  }
+}

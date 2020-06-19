@@ -3,11 +3,11 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width initial-scale=1.0">
-  <title>Genders</title>
-  <link rel="stylesheet" href="generos.css">
+  <meta name="viewport" content="width=I, initial-scale=1.0">
+  <title>Artists</title>
+  <link rel="stylesheet" href="tracks.css">
   <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-  <script src="generos.js"></script>
+  <script src="tracks.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/css/uikit.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit-icons.min.js"></script>
@@ -17,15 +17,14 @@
 </head>
 
 <body>
-  
+
   <header class="myNavbar">
     <nav class="logoDeezer-header" style="display: flex;">
       <a href="home.html">
         <img class="logoNav" src="./img.GT/sound-waves.png">
       </a>
       <h3 class="headerDeezerTitle">DEEZER</h3>
-      <a class="play" href="playlist.html">Check your playlist here!</a> <a class="play" href="generos.html">
-        Generos</a>
+      <a class="play" href="playlist.html">Playlist: Liked Songs</a> <a class="play" href="generos.html"> Generos</a>
     </nav>
 
     <div class="searchBar">
@@ -35,42 +34,22 @@
     </div>
   </header>
 
-    <main>
-        
-        <div class="subtitulo">
-            <h3 class="tituloResultado">Generos</h3>
-        </div>
-          <br>
-        <div class="listadoResultados">
-          
-        </div>
-        <div class="albums">
-          
-        </div>
-        
-    </main>
+  <main class="mainTrack">
+    <div class="grid-item">
 
-    <div class="subtitulo">
-      <h3 class="tituloResultado">Generos</h3>
     </div>
-    <br>
-    <div class="listadoResultados">
-      <h3 class="generos">Pop</h3>
-      <h3 class="generos">Electronic</h3>
-      <h3 class="generos">Rap</h3>
-      <h3 class="generos">Rock</h3>
-      <h3 class="generos">Dance</h3>
-      <h3 class="generos">Reggeaton</h3>
-    </div>
-    <div class="uk-inline generos">
-      <button class="uk-button uk-button-default" type="button"><i class="fas fa-music" id="generoButton"></i></button>
-      <div uk-dropdown="pos: right-center mode: click">
-        <ul class="uk-nav uk-dropdown-nav cadaGeneroContenedor">
 
-        </ul>
+    <article class="trackInfo">
+      <div class="artistDetails">
+        <h1 class="nombreA"></h1>
+        <h3 class="nombreB"></h3>
+        <button class="boton"><i class="far fa-heart"></i></button>
       </div>
-    </div>
+    </article>
   </main>
+
+  <iframe class="reproductor" scrolling="no" frameborder="0" allowTransparency="true" src="" width="1440" height="90">
+  </iframe>
 
   <footer>
     <div class="nuestro-logo">
@@ -79,22 +58,24 @@
     <div>
       <img class="logoDeezer" src="./img.GT/Deezer.png (1).png">
     </div>
-    <nav class="alumnos">
+
+    <div class="alumnos">
       <em>
-        <h3 class="nombres">Integrantes:
+        <h3>Integrantes:
           <ol class="nombres">Masic, Timoteo</ol>
           <ol class="nombres">Saud, Bautista</ol>
           <ol class="nombres">Torrez, Facundo</ol>
         </h3>
       </em>
+
       <nav class="redes">
         <a class="facebook" href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
         <a class="instagram" href="https://www.instagram.com/"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-        <a href="https://twitter.com/explore"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a class="twitter" href="https://twitter.com/explore"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
       </nav>
-    </nav>
-  </footer>
 
+    </div>
+  </footer>
 </body>
 
 </html>

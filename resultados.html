@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=I, initial-scale=1.0">
@@ -16,15 +17,16 @@
 </head>
 
 <body>
-   
+
   <header class="myNavbar">
     <nav class="logoDeezer-header" style="display: flex;">
       <a href="home.html">
         <img class="logoNav" src="./img.GT/sound-waves.png">
       </a>
       <h3 class="headerDeezerTitle">DEEZER</h3>
-      <a class="play" href="playlist.html">Check your playlist here!</a>
+      <a class="play" href="playlist.html">Playlist: Liked Songs</a> <a class="play" href="generos.html"> Generos</a>
     </nav>
+
     <div class="searchBar">
       <form class="formbuscador" method="GET" action="resultados.html">
         <input type="text" class="input-text" name="buscador" placeholder="Search..">
@@ -32,38 +34,59 @@
     </div>
   </header>
 
-    <main>
-        
-        <div class="subtitulo">
-            <h3 class="tituloResultado">Albums</h3>
-        </div>
-          <br>
-        <div class="listadoResultados">
-
-        </div>
-         
-    </main>
-
-    <footer>
-      <div class="nuestro-logo">
-        <img class="logoNav-footer" src="./img.GT/sound-waves.png">
+  <main class="megaMain">
+    <div class="resultadoAlbums">
+      <div class="subtitulo">
+        <h3 class="tituloResultado">Albums</h3>
       </div>
-      <div >
-        <img class="logoDeezer" src="./img.GT/Deezer.png (1).png">
+      <br>
+      <div class="listadoResultadosAlbums">
+
       </div>
-      <nav class="alumnos">
-       <em> <h3 class="nombres">Integrantes:
+    </div>
+    <div class="resultadoTracks">
+      <div class="subtitulo">
+        <h3 class="tituloResultado">Tracks</h3>
+      </div>
+      <br>
+      <div class="listadoResultadosTracks">
+
+      </div>
+    </div>
+    <div class="resultadoArtists">
+      <div class="subtitulo">
+        <h3 class="tituloResultado">Artists</h3>
+      </div>
+      <br>
+      <div class="listadoResultadosArtists">
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="nuestro-logo">
+      <img class="logoNav-footer" src="./img.GT/sound-waves.png">
+    </div>
+    <div>
+      <img class="logoDeezer" src="./img.GT/Deezer.png (1).png">
+    </div>
+    <nav class="alumnos">
+      <em>
+        <h3 class="nombres">Integrantes:
           <ol class="nombres">Masic, Timoteo</ol>
           <ol class="nombres">Saud, Bautista</ol>
           <ol class="nombres">Torrez, Facundo</ol>
-        </h3> </em>
-        <nav class="redes">
-          <a class="facebook" href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-          <a class="instagram" href="https://www.instagram.com/"> <i class="fa fa-instagram" aria-hidden="true"></i></a> 
-          <a href="https://twitter.com/explore"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
-         </nav>
+        </h3>
+      </em>
+      <nav class="redes">
+        <a class="facebook" href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a class="instagram" href="https://www.instagram.com/"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/explore"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
       </nav>
-    </footer>
+    </nav>
+  </footer>
 
 </body>
+
 </html>
