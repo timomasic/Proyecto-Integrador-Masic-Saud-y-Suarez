@@ -37,7 +37,6 @@ window.addEventListener("load", function () {
 
             fetch("https://cors-anywhere.herokuapp.com/" + topTrack)
 
-<<<<<<< HEAD
             .then(function(respuesta) {
                 return respuesta.json()
             })
@@ -62,28 +61,6 @@ window.addEventListener("load", function () {
                         
                         <article class="add-playlist">
                             <i class="fas fa-plus botoncito"  idCancion=` + idTrack + `></i>
-=======
-                .then(function (respuesta) {
-                    return respuesta.json()
-                })
-
-                .then(function (information) {
-                        console.log(information);
-
-                        let topTrack = information.data
-
-                        let cancion = document.querySelector("#topSongs")
-                        console.log(cancion)
-
-                        for (let i = 0; i < 5; i++) {
-                            const element = topTrack[i];
-
-                            let nombre = element.title
-                            let idTrack = element.id
-                            document.querySelector(".artistTopSongs").innerHTML += `<h5 class="ultimo-tema">` + +`<i class="far fa-heart">` + `</i></h5> </h2>
-                        <article class="lines" >` + (i + 1) + "-" + `
-                        <a class="hipervinculos" href="tracks.html?idTrack=` + idTrack + `">` + nombre + `</a>
->>>>>>> d16f8ffb28145b0bbd6cb2253b026beb0110c3e6
                         </article>
                         
                         
