@@ -91,7 +91,7 @@ window.addEventListener("load", function () {
                     listadoResultados.innerHTML +=
                         `
                 <li>
-                    <a href="artist.html?id=` + resultados.id + `">
+                    <a href="artist.html?idartist=` + resultados.id + `">
                         <img src="` + resultados.picture_medium + `"></img>
                         <h4>` + resultados.name + `</h4>
                     </a>

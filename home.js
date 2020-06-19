@@ -52,7 +52,7 @@ window.addEventListener("load", function () {
                         <a href="artist.html?idartist=` + artistId + `">  <img class= "foto" src="` + artistPic + `" alt=""> </a>
                     </div>
                     <div class="uk-card-body artist-body-card">
-                        <a href="artist.html?idartist="` + artistId + `"><h3>` + artistName + `</h3></a>
+                        <a href="artist.html?idartist=` + artistId + `"><h3>` + artistName + `</h3></a>
                     </div>
                 </li>`;
                 document.querySelector("#topArtist").innerHTML += artistItem;
