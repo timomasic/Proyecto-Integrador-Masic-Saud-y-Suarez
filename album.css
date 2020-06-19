@@ -1,90 +1,8 @@
-.header{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 25%  60% 15% ;
-    justify-content: space-between;
-    background-color: #2692b7;
-    background-image: linear-gradient(56deg,#0087c1 13%,#89d7bb);
-    position: none;
-}
-
 body {
   background-image: url(https://images.unsplash.com/photo-1557682257-2f9c37a3a5f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1700&q=80);
   background-repeat: no-repeat;
   background-position: fixed;
   background-size: cover;
-}
-
-.atras-adelante {
-  margin-left: 35px;
-  margin-top: 19px;
-}
-
-.buscador {
-  padding-bottom: 11px;
-}
-
-.grid-container {
-  width: 400px;
-  height: 400px;
-  border-radius: 205px;
-  border: solid 1px gainsboro;
-}
-
-.grid-item {
-  padding: 100px;
-  font-size: 30px;
-  width: 100%;
-}
-
-.imageSize {
-  width: 78%;
-  height: 306px;
-  border-radius: 50%;
-  border: solid 1px gainsboro;
-  margin-top: 85px;
-}
-
-.item {
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  text-decoration: none;
-  font-family: Arial, sans-serif;
-}
-
-.eminem{
-      display: grid;
-      grid-template-columns: 30% 70%;
-      justify-content: space-between;
-      margin-top: 1px;
-}
-
-.facts {
-  color: white;
-  margin-left: 123px;
-  margin-top: 232px;
-  background-color: #2692b7;
-  background-image: linear-gradient(56deg, #0087c1 13%, #89d7bb);
-  height: 190px;
-  padding-left: 74px;
-  margin-left: 137px;
-  margin-right: 103px;
-  border-radius: 25px;
-}
-
-.songs {
-  background-color: #2f3030;
-  color: white;
-  margin-right: 20px;
-  margin-left: 20px;
-}
-
-.cancion {
-  margin-top: 25px;
-  border-top: solid 1px gainsboro;
-  padding-top: 25px;
-  padding-left: 45px;
 }
 
 .myNavbar {
@@ -117,62 +35,12 @@ body {
   color: rgba(55, 55, 55, 0.75)
 }
 
-.fa-heart:before {
-  padding-right: 33px;
-  padding-left: 33px;
-}
-
-footer {
-  height: 250px;
-  background-color: #2692b7;
-  background-image: linear-gradient(56deg, #0087c1 13%, #89d7bb);
-  display: grid;
-  grid-template-columns: 30% 30% 40%;
-  justify-content: space-between;
-  border-radius: 30px;
-}
-
-
-.personalLogo {
-  height: 226px;
-  padding: 15px;
-}
-
-.ultima-cancion {
-  margin-top: 25px;
-  border-top: solid 1px gainsboro;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 45px;
-}
-
-.cancion:hover {
-  color: #1bc908;
-}
-
-.ultima-cancion:hover {
-  color: #1bc908;
-}
-
-.link {
-  color: white;
-  text-decoration: none;
-
-}
-
 .logoNav {
   width: 58px;
   height: 55px;
   margin-top: 6px;
   margin-left: 16px;
   margin-right: 10px;
-}
-
-.logoNav-footer {
-  width: 73%;
-  height: 268px;
-  margin-top: 7px;
-  margin-left: 10px;
 }
 
 .searchBar {
@@ -206,6 +74,133 @@ footer {
   margin-top: 15px;
 }
 
+.logoNav-footer {
+  width: 73%;
+  height: 268px;
+  margin-top: -3px;
+  margin-left: 10px;
+}
+
+.flexsearch--form {
+  padding-left: 500px;
+  padding-top: 18px;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 100px;
+  width: 30%;
+  margin-left: 35px;
+}
+
+.imageSize {
+  width: 90%;
+  height: 376px;
+  border-radius: 50%;
+  border: solid 1px gainsboro;
+  margin-top: 41px;
+}
+
+.trackInfo {
+  background-color: #2692b7;
+  background-image: linear-gradient(56deg, #0087c1 13%, #89d7bb);
+  border-radius: 10px;
+  margin-top: 100px;
+  height: 50%;
+  padding: 5px;
+  width: 22%;
+}
+
+.boton {
+  background-color: #2692b7;
+  border: white 0px solid;
+}
+
+.mainTrack {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  height: 500px;
+}
+
+.artistDetails {
+  height: 85px;
+  border-radius: 10px;
+  margin-left: 18px;
+  margin-top: 25px;
+}
+
+.topSongs {
+  padding: 5px;
+  height: 402px;
+  margin: auto;
+  margin-top: 36px;
+}
+
+.reproductor {
+  position: fixed;
+  margin-top: 53px;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 1.4;
+  color: white;
+  border-top: solid 1px gainsboro;
+}
+
+.tema {
+  font-size: 16px;
+  line-height: 1.4;
+  color: white;
+  border-top: solid 1px gainsboro;
+  margin-left: 15px;
+}
+
+.ultimo-tema {
+  height: 62px;
+  font-size: 16px;
+  line-height: 1.4;
+  color: white;
+  border-top: solid 1px gainsboro;
+  margin-left: 15px;
+}
+
+.artistTopSongs {
+  background-color: #2f3030;
+  color: white;
+  border-top: solid, 1px gainsboro;
+  margin: -5px;
+  border-radius: 10px;
+}
+
+.fa-heart:before {
+  margin-right: 15px;
+  margin-left: 23px;
+}
+
+.fa-play-circle:before {
+  content: "\f144";
+  margin-left: 130px
+}
+
+footer {
+  height: 250px;
+  background-color: #2692b7;
+  background-image: linear-gradient(56deg, #0087c1 13%, #89d7bb);
+  display: grid;
+  grid-template-columns: 30% 30% 40%;
+  justify-content: space-between;
+  border-radius: 30px;
+  margin-top: 365px;
+}
+
+.personalLogo {
+  height: 226px;
+  padding: 15px;
+}
+
 h3 {
   margin-left: 45px;
   margin-top: 17px;
@@ -218,22 +213,21 @@ h3:hover {
   color: rgba(55, 55, 55, 0.75);
 }
 
+.cancion:hover {
+  color: #1bc908;
+}
+
+.ultima-cancion:hover {
+  color: #1bc908;
+}
 
 .logoDeezer {
   width: 86%;
-  margin-top: 16px;
-}
-
-.buscador {
-  list-style: none;
-}
-
-.flexsearch--input-wrapper {
-  padding-top: 15px;
+  margin-top: 29px;
 }
 
 .redes {
-  margin-top: -203px;
+  margin-top: -202px;
   margin-left: 375px;
   font-size: 92px;
 }
@@ -282,18 +276,10 @@ h3:hover {
     font-size: 17px;
   }
 
-  .grid-item {
-    padding: 65px;
-    font-size: 30px;
-    width: 173%;
-    padding-left: 5%;
-    padding-top: 66%;
-  }
-
   .logoNav-footer {
     width: 73%;
-    height: 268px;
-    margin-top: 7px;
+    height: 191px;
+    margin-top: 45px;
     margin-left: 10px;
   }
 
@@ -302,30 +288,25 @@ h3:hover {
     margin-top: 65px;
   }
 
+  .logoNav {
+    width: 45px;
+    height: 45px;
+    margin-top: 9px;
+    margin-left: 10px;
+  }
+
+  .topSongs {
+    background-color: #2692b7;
+    background-image: linear-gradient(56deg, #0087c1 13%, #89d7bb);
+    padding: 5px;
+    height: 420px;
+    margin-right: 40px;
+  }
+
   .imageSize {
-    width: 84%;
-    height: 300px;
+    width: 200%;
     border-radius: 50%;
     border: solid 1px gainsboro;
-    margin-top: 65px;
+    margin-top: 31px;
   }
-
-  .redes {
-    margin-top: -203px;
-    margin-left: 375px;
-    font-size: 92px;
-  }
-
-  .facebook {
-    color: #3b5998;
-  }
-
-  .instagram {
-    color: #E1306C;
-  }
-
-  .twitter {
-    color: #1DA1F2;
-  }
-
 }

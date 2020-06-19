@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
 
-    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/")
+    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/albums")
         .then(
             function (respuesta) {
                 return respuesta.json();
@@ -8,28 +8,28 @@ window.addEventListener("load", function () {
         )
         .then(
             function (information) {
-                let track = document.querySelector("li .track-item")
-                let trackList = information.tracks.data;
-                for (let i = 0; i < trackList.length; i++) {
-                    console.log(trackList);
-                    let trackId = trackList[i].id;
-                    let trackTitle = trackList[i].title_short;
-                    let trackArtist = trackList[i].artist.name;
-                    let trackArtistId = trackList[i].artist.id;
-                    let trackImage = trackList[i].album.cover_xl;
-                    let trackItem = `
+                console.log(information)
+                let album = document.querySelector("li .track-item")
+                let albumsList = information.data;
+                
+                for (let i = 0; i < albumsList.length; i++) {
+                    console.log(albumsList);
+                    let idDelAlbum = albumsList[i].id
+                    let imagenDelAlbum = albumsList[i].cover
+                    let tituloDelAlbum = albumsList[i].title
+                    let albumItem = `
                 <li class="track-item">
                     <div class="ocultar" class="uk-card uk-card-default">
                         <div class="uk-card-media-top">
-                            <a href="album.html?idalbum=` + trackId + `">  <img class= "foto" src="` + trackImage + `" alt=""> </a>
+                            <a href="album.html?idalbum=` + idDelAlbum + `">  <img class="foto" src="` + imagenDelAlbum + `" alt=""> </a>
                         </div>
                         <div class="uk-card-body">
-                            <a href="album.html?idalbum=" > <h3 class="uk-card-title">` + trackTitle + `<h3></a>
+                            <a href="album.html?idalbum=`+ idDelAlbum +`" > <h3 class="uk-card-title">` + tituloDelAlbum + `<h3></a>
                         </div>
                     </div>
                 </li>
                 `
-                    document.querySelector(".trackList").innerHTML += trackItem;
+                    document.querySelector("#topAlbums").innerHTML += albumItem;
                 }
             }
         )
